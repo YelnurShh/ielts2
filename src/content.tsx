@@ -6,7 +6,7 @@ import { db, errorMessage } from './firebase';
 import { useAuth, Loader } from './auth';
 import { TEACHER_UID } from './config';
 import { lessons as initialLessons, prompts as initialPrompts } from './data';
-export type LessonContent = { id:string; number:string; title:string; category:string; time:number; description:string; sections:{title:string;text:string;example?:string}[]; exercise:string };
+export type LessonContent = { id:string; number:string; title:string; category:string; time:number; description:string; sections:{title:string;text:string;example?:string}[]; exercise:string; practiceId?:string };
 export type PromptContent = typeof initialPrompts[number];
 export function useContent(kind:'lessons'): {items:LessonContent[];loading:boolean;error:string};
 export function useContent(kind:'prompts'): {items:PromptContent[];loading:boolean;error:string};

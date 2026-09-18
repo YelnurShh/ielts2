@@ -1,4 +1,17 @@
+import { courseLessons } from "./course";
 export const prompts = [
+{"id": "course-foundation", "category": "Негіздер", "type": "Opinion essay", "title": "Алғашқы диагностика", "prompt": "Some people believe that schools should teach practical life skills as well as academic subjects. To what extent do you agree or disagree?"},
+{"id": "course-discussion", "category": "Discussion", "type": "Discussion essay", "title": "Жеке оқу немесе топтық оқу", "prompt": "Some people think students learn better alone, while others prefer group study. Discuss both views and give your own opinion."},
+{"id": "course-opinion", "category": "Opinion", "type": "Opinion essay", "title": "Онлайн сабақтар", "prompt": "All secondary school lessons should be delivered online. To what extent do you agree or disagree?"},
+{"id": "course-money", "category": "Opinion", "type": "Opinion essay", "title": "Қаржылық сауаттылық", "prompt": "Schools should teach students how to manage money. To what extent do you agree or disagree?"},
+{"id": "course-advantages", "category": "Advantages / Disadvantages", "type": "Advantages & disadvantages", "title": "Қалаға көшу", "prompt": "More young people are moving to large cities. Do the advantages of this trend outweigh the disadvantages?"},
+{"id": "course-remote", "category": "Advantages / Disadvantages", "type": "Advantages & disadvantages", "title": "Үйден жұмыс істеу", "prompt": "Many employees now work from home. Do the advantages of this development outweigh the disadvantages?"},
+{"id": "course-problem", "category": "Problem / Solution", "type": "Problem & solution", "title": "Қаладағы кептеліс", "prompt": "Traffic congestion is increasing in many cities. What are the causes of this problem, and what solutions can you suggest?"},
+{"id": "course-sleep", "category": "Problem / Solution", "type": "Problem & solution", "title": "Жасөспірімдердің ұйқысы", "prompt": "Many teenagers do not get enough sleep. What are the causes of this problem, and what measures could help address it?"},
+{"id": "course-two-part", "category": "Two-Part Question", "type": "Two-part question", "title": "Тіл үйрену жолдары", "prompt": "Many people learn a foreign language. Why do they choose to do this? What is the most effective way to learn a language?"},
+{"id": "course-news", "category": "Two-Part Question", "type": "Two-part question", "title": "Әлеуметтік желідегі жаңалықтар", "prompt": "Many young people prefer to get news through social media. Why is this the case? Is this a positive or negative development?"},
+{"id": "course-mixed", "category": "Аралас практика", "type": "Opinion essay", "title": "Тегін қоғамдық көлік", "prompt": "Public transport should be free for everyone. To what extent do you agree or disagree?"},
+{"id": "course-final", "category": "Финалдық сынақ", "type": "Opinion essay", "title": "Финалдық Writing Task 2 сынағы", "prompt": "Some people believe that secondary schools should give more time to practical skills than to academic subjects. To what extent do you agree or disagree?"},
 {id:'education-1',category:'Білім',type:'Opinion essay',title:'Технология және білім',prompt:'Some people believe that technology makes learning more effective, while others think it distracts students. To what extent do you agree or disagree that technology improves education?'},
 {id:'environment-1',category:'Экология',type:'Discussion essay',title:'Табиғатты кім қорғайды?',prompt:'Some people think that protecting the environment is the responsibility of governments, while others believe that individuals should take responsibility. Discuss both views and give your own opinion.'},
 {id:'society-1',category:'Қоғам',type:'Advantages & disadvantages',title:'Үлкен қаладағы өмір',prompt:'More and more young people are moving from rural areas to cities. What are the advantages and disadvantages of this trend?'},
@@ -6,32 +19,5 @@ export const prompts = [
 {id:'technology-1',category:'Технология',type:'Problem & solution',title:'Экран алдындағы уақыт',prompt:'Many teenagers spend too much time using smartphones. What problems does this cause, and what measures could be taken to address them?'},
 {id:'society-2',category:'Қоғам',type:'Two-part question',title:'Жаңа тілді үйрену',prompt:'Many people choose to learn a foreign language. Why do people decide to learn another language? What is the most effective way to learn one?'},
 ];
-export const lessons = [
-{id:'structure',number:'01',title:'Эссенің құрылымы',category:'Негіздер',time:8,description:'Кіріспеден қорытындыға дейін: ойыңды ретімен жеткіз.',sections:[
-{title:'Төрт абзацтан баста',text:'Кіріспе, екі негізгі абзац және қорытынды — ойды жүйелеуге ыңғайлы бастапқы құрылым. Бұл міндетті үлгі емес: абзац саны идеяларыңа байланысты. Әр абзац бір анық міндет атқарсын.'},
-{title:'Кіріспе: сұраққа бағыт бер',text:'Тақырыпты өз сөзіңмен таныстыр. Сұрақтың түріне сай ұстанымыңды немесе жауаптың бағытын анық көрсет. Тапсырмадағы сөйлемді сөзбе-сөз көшірме.',example:'Although digital tools can distract learners, I believe that their educational benefits outweigh these drawbacks when used appropriately.'},
-{title:'Негізгі бөлім: бір идеяны дамыт',text:'Әр абзацты негізгі ойдан баста. Оның неліктен маңызды екенін түсіндір, нақты мысал келтір және сұрақпен байланыстыр. Бір абзацқа бірнеше байланыссыз идея тықпалаудан сақтан.'},
-{title:'Қорытынды: жауапты бекіт',text:'Негізгі жауабыңды қысқаша жинақта. Жаңа дәлел қоспа. Кіріспедегі ұстанымың мен қорытынды бір-біріне сай болсын.'}],exercise:'Технология және білім тақырыбына төрт абзацтық жоспар жаз. Әр абзацқа бір сөйлем жеткілікті.'},
-{id:'question',number:'02',title:'Сұрақты дұрыс түсіну',category:'Негіздер',time:6,description:'Эссе түрін ажырат және сұрақтың барлық бөлігіне жауап бер.',sections:[
-{title:'Тақырып пен міндетті бөл',text:'Тақырып — не туралы жазатының. Нұсқау — сол тақырып бойынша қандай әрекет жасау керектігі. Мысалы, «Discuss both views» екі көзқарасты да түсіндіруді сұрайды.'},
-{title:'Opinion essay',text:'«To what extent do you agree or disagree?» деген сұрақта өз ұстанымыңды анық айт. Толық келісуге, келіспеуге немесе ішінара келісуге болады. Дәлелдерің сол ұстанымды қолдасын.'},
-{title:'Бірнеше бөліктен тұратын сұрақ',text:'Себеп пен шешім сұралса, екеуіне де жауап бер. Артықшылық пен кемшілік сұрағында екі жағын да қарастыр. «Do the advantages outweigh the disadvantages?» болса, салыстырып, қайсысы басым екенін айт.'}],exercise:'Практика бетіндегі үш сұрақты оқы. Әрқайсысында не істеу керектігін қазақша бір сөйлеммен жаз.'},
-{id:'ideas',number:'03',title:'Идея және дәлел',category:'Жазу дағдысы',time:10,description:'Қарапайым ойды сенімді аргументке айналдыр.',sections:[
-{title:'Идея → түсіндіру → мысал',text:'«Технология пайдалы» деу жеткіліксіз. Қалай көмектесетінін түсіндір: оқушы күрделі тақырыпты бейнесабақтан қайта көре алады. Содан кейін бұл өз қарқынымен оқуға мүмкіндік беретінін көрсет.'},
-{title:'Мысалың нақты болсын',text:'Мысал ойды түсіндіруі керек. Күмәнді статистика немесе ойдан шығарылған зерттеу келтірме. Жалпы өмірлік жағдайды немесе өз тәжірибеңе негізделген мысалды қолдануға болады.',example:'For example, a student who struggles with algebra can replay an online explanation until the method becomes clear.'},
-{title:'Сұрақпен байланысты тексер',text:'Әр абзац соңында: «Бұл ой менің жауабымды қалай дәлелдейді?» деп сұра. Байланысы анық болмаса, дәлелді қайта қара немесе алып таста.'}],exercise:'«Мектепте топтық жұмыс пайдалы» деген ойға түсіндіру және бір нақты мысал жаз.'},
-{id:'cohesion',number:'04',title:'Ой байланысы',category:'Жазу дағдысы',time:7,description:'Абзацтар мен сөйлемдерді табиғи байланыстыруды үйрен.',sections:[
-{title:'Логика — бірінші орында',text:'Байланыстырушы сөздің көп болуы мәтінді автоматты түрде жақсы етпейді. Алдымен ойларыңның реті түсінікті болсын: себептен салдарға, жалпы ойдан мысалға өт.'},
-{title:'Қызметіне қарай таңда',text:'However — қарама-қарсы ой, therefore — нәтиже, for example — мысал. Мағынасына сәйкес келмейтін сөзді тек әдемі көріну үшін қоспа.',example:'Online courses are accessible from home. However, they require students to manage their own time.'},
-{title:'Қайталауды азайт',text:'Есімдіктер мен мағыналас сөздерді қолдан, бірақ ненің орнына тұрғаны түсінікті болсын. Бір ұғымды әр жолы жасанды синониммен ауыстыру міндетті емес.'}],exercise:'Жазған абзацыңнан үш байланыстырғышты тап. Әрқайсысы қандай логикалық қатынасты білдіретінін тексер.'},
-{id:'vocabulary',number:'05',title:'Сөздік қор және дәлдік',category:'Тіл',time:9,description:'Күрделі сөзден бұрын — орынды сөз.',sections:[
-{title:'Дәл мағынаны таңда',text:'Сөздің мағынасын, тіркесуін және сөйлемдегі қызметін білсең ғана қолдан. Таныс сөзді дұрыс қолдану бейтаныс күрделі сөзді қате қолданудан тиімдірек.'},
-{title:'Тіркес ретінде үйрен',text:'Жеке сөзбен бірге оның жиі қолданылатын тіркесін жазып жүр. Мысалы: develop a skill, address a problem, have access to education.',example:'Schools can help students develop practical skills by introducing project-based learning.'},
-{title:'Тексеруге уақыт қалдыр',text:'Жиі қайталанатын сөздерді, емле мен сөз формасын тексер. Сөйлем мағынасын өзгертетін немесе түсініксіз ететін қатені бірінші түзет.'}],exercise:'Білім тақырыбына бес пайдалы тіркес таңда. Әрқайсысымен өз сөйлеміңді құрастыр.'},
-{id:'review',number:'06',title:'Эссені тексеру',category:'Емтиханға дайындық',time:6,description:'Төрт критерий бойынша жұмысыңа қайта қара.',sections:[
-{title:'Task Response',text:'Сұрақтың барлық бөлігіне жауап бердің бе? Ұстанымың анық па? Негізгі ойлар жеткілікті түсіндірілген бе?'},
-{title:'Coherence and Cohesion',text:'Абзацтардың реті түсінікті ме? Әр абзацтың негізгі идеясы бар ма? Ойлар арасындағы байланыс табиғи ма?'},
-{title:'Lexical Resource',text:'Сөздер мағынасына сай қолданылған ба? Сөз тіркестері дұрыс па? Емле және сөз формасындағы қателерді тексер.'},
-{title:'Grammatical Range and Accuracy',text:'Жай және күрделі сөйлемдерді орынды қолдандың ба? Бастауыш пен баяндауыш қиыса ма? Шақ, артикль және тыныс белгілерін тексер.'}],exercise:'Бір эссеңді қайта оқып, әр критерийге бір күшті жағыңды және бір жақсартатын тұсты жаз.'},
-];
+export const lessons = courseLessons;
 export const criteria = ['Task Response','Coherence & Cohesion','Lexical Resource','Grammar & Accuracy'];
