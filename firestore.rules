@@ -1,0 +1,113 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function own(uid) { return signedIn() && request.auth.uid == uid; }
+    function isStudent() { return signedIn() && request.auth.uid != 'GltgUK9bkuZTmVfTi3RhzddrU7X2'; }
+    function isTeacher() { return signedIn() && request.auth.uid == 'GltgUK9bkuZTmVfTi3RhzddrU7X2'; }
+    match /users/{uid} {
+      allow read: if own(uid);
+      allow create: if own(uid)
+        && request.resource.data.keys().hasAll(['name', 'email', 'role', 'teacherId', 'createdAt'])
+        && request.resource.data.keys().hasOnly(['name', 'email', 'role', 'teacherId', 'createdAt'])
+        && request.resource.data.name is string
+        && request.resource.data.name.size() > 0 && request.resource.data.name.size() <= 80
+        && request.resource.data.email == request.auth.token.email
+        && ((isTeacher() && request.resource.data.role == 'teacher') || (isStudent() && request.resource.data.role == 'student'))
+        && request.resource.data.teacherId == 'GltgUK9bkuZTmVfTi3RhzddrU7X2'
+        && request.resource.data.createdAt == request.time;
+      allow update, delete: if false;
+    }
+    function validContent(data) {
+      return data.text is string && data.text.size() > 0 && data.text.size() <= 20000
+        && data.wordCount is int && data.wordCount > 0 && data.wordCount <= 20000
+        && data.teacherId == 'GltgUK9bkuZTmVfTi3RhzddrU7X2'
+        && data.updatedAt == request.time;
+    }
+    function validStudentStatus(data) {
+      return (data.status == 'draft' && data.submittedAt == null)
+        || (data.status == 'submitted' && data.wordCount >= 250
+          && data.submittedAt == request.time);
+    }
+    function validScore(score) {
+      return score is number && score >= 0 && score <= 9 && (score * 2) % 1 == 0;
+    }
+    match /essays/{essayId} {
+      allow read: if signedIn() && (resource.data.ownerId == request.auth.uid
+        || (isTeacher() && resource.data.teacherId == request.auth.uid
+          && resource.data.status in ['submitted', 'reviewed']));
+      allow create: if isStudent()
+        && request.resource.data.keys().hasAll(['ownerId','studentName','teacherId','promptId','title','prompt','text','wordCount','status','feedback','scores','createdAt','updatedAt','submittedAt'])
+        && request.resource.data.keys().hasOnly(['ownerId','studentName','teacherId','promptId','title','prompt','text','wordCount','status','feedback','scores','createdAt','updatedAt','submittedAt'])
+        && request.resource.data.ownerId == request.auth.uid
+        && request.resource.data.studentName == get(/databases/$(database)/documents/users/$(request.auth.uid)).data.name
+        && request.resource.data.promptId is string && request.resource.data.promptId.size() <= 100
+        && request.resource.data.title is string && request.resource.data.title.size() <= 200
+        && request.resource.data.prompt is string && request.resource.data.prompt.size() <= 3000
+        && validContent(request.resource.data) && validStudentStatus(request.resource.data)
+        && request.resource.data.feedback == '' && request.resource.data.scores == []
+        && request.resource.data.createdAt == request.time;
+      allow update: if (
+        isStudent() && resource.data.ownerId == request.auth.uid && resource.data.status == 'draft'
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['text','wordCount','teacherId','status','updatedAt','submittedAt'])
+        && validContent(request.resource.data) && validStudentStatus(request.resource.data)
+      ) || (
+        isTeacher() && resource.data.teacherId == request.auth.uid
+        && resource.data.status in ['submitted','reviewed']
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['feedback','scores','status','updatedAt','reviewedAt'])
+        && request.resource.data.status == 'reviewed'
+        && request.resource.data.feedback is string && request.resource.data.feedback.size() > 0
+        && request.resource.data.feedback.size() <= 10000
+        && request.resource.data.scores is list && request.resource.data.scores.size() == 4
+        && validScore(request.resource.data.scores[0]) && validScore(request.resource.data.scores[1])
+        && validScore(request.resource.data.scores[2]) && validScore(request.resource.data.scores[3])
+        && request.resource.data.updatedAt == request.time
+        && request.resource.data.reviewedAt == request.time
+      );
+      allow delete: if false;
+    }
+    function validSection(section) {
+      return section is map && section.keys().hasAll(['title','text','example'])
+        && section.keys().hasOnly(['title','text','example'])
+        && section.title is string && section.title.size() > 0 && section.title.size() <= 200
+        && section.text is string && section.text.size() > 0 && section.text.size() <= 10000
+        && section.example is string && section.example.size() <= 10000;
+    }
+    function validLesson(sections) {
+      let count = sections.size();
+      return sections is list && count > 0 && count <= 6
+        && (count <= 0 || validSection(sections[0]))
+        && (count <= 1 || validSection(sections[1]))
+        && (count <= 2 || validSection(sections[2]))
+        && (count <= 3 || validSection(sections[3]))
+        && (count <= 4 || validSection(sections[4]))
+        && (count <= 5 || validSection(sections[5]));
+    }
+    function validMaterial(data) {
+      return data.createdBy == request.auth.uid && data.createdAt == request.time
+        && data.title is string && data.title.size() > 0 && data.title.size() <= 200
+        && data.category is string && data.category.size() > 0 && data.category.size() <= 80;
+    }
+    match /lessons/{id} {
+      allow read: if true;
+      allow create: if isTeacher() && validMaterial(request.resource.data)
+        && request.resource.data.keys().hasAll(['title','category','description','time','exercise','sections','createdBy','createdAt'])
+        && request.resource.data.keys().hasOnly(['title','category','description','time','exercise','sections','createdBy','createdAt'])
+        && request.resource.data.description is string && request.resource.data.description.size() > 0 && request.resource.data.description.size() <= 1000
+        && request.resource.data.time is int && request.resource.data.time >= 1 && request.resource.data.time <= 120
+        && request.resource.data.exercise is string && request.resource.data.exercise.size() <= 3000
+        && validLesson(request.resource.data.sections);
+      allow update, delete: if false;
+    }
+    match /prompts/{id} {
+      allow read: if true;
+      allow create: if isTeacher() && validMaterial(request.resource.data)
+        && request.resource.data.keys().hasAll(['title','category','type','prompt','createdBy','createdAt'])
+        && request.resource.data.keys().hasOnly(['title','category','type','prompt','createdBy','createdAt'])
+        && request.resource.data.type in ['Opinion essay','Discussion essay','Advantages & disadvantages','Problem & solution','Two-part question']
+        && request.resource.data.prompt is string && request.resource.data.prompt.size() > 0 && request.resource.data.prompt.size() <= 3000;
+      allow update, delete: if false;
+    }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

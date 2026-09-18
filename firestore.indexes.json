@@ -1,0 +1,1 @@
+{"indexes":[{"collectionGroup":"essays","queryScope":"COLLECTION","fields":[{"fieldPath":"teacherId","order":"ASCENDING"},{"fieldPath":"status","order":"ASCENDING"}]}],"fieldOverrides":[]}

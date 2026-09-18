@@ -1,0 +1,6 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "functions": { "api/analyze.js": { "maxDuration": 60 } },
+  "rewrites": [{ "source": "/((?!api/|assets/|favicon.svg).*)", "destination": "/index.html" }]
+}
