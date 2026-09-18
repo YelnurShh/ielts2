@@ -3,8 +3,8 @@ service cloud.firestore {
   match /databases/{database}/documents {
     function signedIn() { return request.auth != null; }
     function own(uid) { return signedIn() && request.auth.uid == uid; }
-    function isStudent() { return signedIn() && request.auth.uid != 'GltgUK9bkuZTmVfTi3RhzddrU7X2'; }
-    function isTeacher() { return signedIn() && request.auth.uid == 'GltgUK9bkuZTmVfTi3RhzddrU7X2'; }
+    function isStudent() { return signedIn() && !isTeacher(); }
+    function isTeacher() { return signedIn() && (request.auth.uid == 'GltgUK9bkuZTmVfTi3RhzddrU7X2' || exists(/databases/$(database)/documents/teacherMemberships/$(request.auth.uid))); }
     match /users/{uid} {
       allow read: if own(uid);
       allow create: if own(uid)
@@ -16,7 +16,20 @@ service cloud.firestore {
         && ((isTeacher() && request.resource.data.role == 'teacher') || (isStudent() && request.resource.data.role == 'student'))
         && request.resource.data.teacherId == 'GltgUK9bkuZTmVfTi3RhzddrU7X2'
         && request.resource.data.createdAt == request.time;
-      allow update, delete: if false;
+      allow update: if own(uid) && isTeacher()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['role'])
+        && request.resource.data.role == 'teacher';
+      allow delete: if false;
+    }
+    match /settings/teacherAccess {
+      allow read, write: if false;
+    }
+    match /teacherMemberships/{uid} {
+      allow create, update: if own(uid)
+        && request.resource.data.keys().hasOnly(['inviteCode'])
+        && request.resource.data.inviteCode is string
+        && request.resource.data.inviteCode == 'Teacher2026++';
+      allow read, delete: if false;
     }
     function validContent(data) {
       return data.text is string && data.text.size() > 0 && data.text.size() <= 20000
@@ -34,7 +47,7 @@ service cloud.firestore {
     }
     match /essays/{essayId} {
       allow read: if signedIn() && (resource.data.ownerId == request.auth.uid
-        || (isTeacher() && resource.data.teacherId == request.auth.uid
+        || (isTeacher()
           && resource.data.status in ['submitted', 'reviewed']));
       allow create: if isStudent()
         && request.resource.data.keys().hasAll(['ownerId','studentName','teacherId','promptId','title','prompt','text','wordCount','status','feedback','scores','createdAt','updatedAt','submittedAt'])
@@ -52,7 +65,7 @@ service cloud.firestore {
         && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['text','wordCount','teacherId','status','updatedAt','submittedAt'])
         && validContent(request.resource.data) && validStudentStatus(request.resource.data)
       ) || (
-        isTeacher() && resource.data.teacherId == request.auth.uid
+        isTeacher()
         && resource.data.status in ['submitted','reviewed']
         && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['feedback','scores','status','updatedAt','reviewedAt'])
         && request.resource.data.status == 'reviewed'
