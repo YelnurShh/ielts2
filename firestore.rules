@@ -6,7 +6,7 @@ service cloud.firestore {
     function isStudent() { return signedIn() && !isTeacher(); }
     function isTeacher() { return signedIn() && (request.auth.uid == 'GltgUK9bkuZTmVfTi3RhzddrU7X2' || exists(/databases/$(database)/documents/teacherMemberships/$(request.auth.uid))); }
     match /users/{uid} {
-      allow read: if own(uid);
+      allow read: if own(uid) || (isTeacher() && resource.data.role == 'student');
       allow create: if own(uid)
         && request.resource.data.keys().hasAll(['name', 'email', 'role', 'teacherId', 'createdAt'])
         && request.resource.data.keys().hasOnly(['name', 'email', 'role', 'teacherId', 'createdAt'])
@@ -19,7 +19,7 @@ service cloud.firestore {
       allow update: if own(uid) && isTeacher()
         && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['role'])
         && request.resource.data.role == 'teacher';
-      allow delete: if false;
+      allow delete: if own(uid);
     }
     match /settings/teacherAccess {
       allow read, write: if false;
@@ -29,11 +29,12 @@ service cloud.firestore {
         && request.resource.data.keys().hasOnly(['inviteCode'])
         && request.resource.data.inviteCode is string
         && request.resource.data.inviteCode == 'Teacher2026++';
-      allow read, delete: if false;
+      allow read: if false;
+      allow delete: if own(uid);
     }
     function validContent(data) {
-      return data.text is string && data.text.size() > 0 && data.text.size() <= 20000
-        && data.wordCount is int && data.wordCount > 0 && data.wordCount <= 20000
+      return data.text is string && data.text.size() >= 0 && data.text.size() <= 20000
+        && data.wordCount is int && data.wordCount >= 0 && data.wordCount <= 20000
         && data.teacherId == 'GltgUK9bkuZTmVfTi3RhzddrU7X2'
         && data.updatedAt == request.time;
     }
@@ -51,7 +52,7 @@ service cloud.firestore {
           && resource.data.status in ['submitted', 'reviewed']));
       allow create: if isStudent()
         && request.resource.data.keys().hasAll(['ownerId','studentName','teacherId','promptId','title','prompt','text','wordCount','status','feedback','scores','createdAt','updatedAt','submittedAt'])
-        && request.resource.data.keys().hasOnly(['ownerId','studentName','teacherId','promptId','title','prompt','text','wordCount','status','feedback','scores','createdAt','updatedAt','submittedAt'])
+        && request.resource.data.keys().hasOnly(['ownerId','studentName','teacherId','promptId','title','prompt','text','wordCount','status','feedback','scores','createdAt','updatedAt','submittedAt','lessonId','parentId','rootId','version','plan','questionMarks','checks','goals','focus','mode','startedAt','deadlineAt'])
         && request.resource.data.ownerId == request.auth.uid
         && request.resource.data.studentName == get(/databases/$(database)/documents/users/$(request.auth.uid)).data.name
         && request.resource.data.promptId is string && request.resource.data.promptId.size() <= 100
@@ -59,15 +60,19 @@ service cloud.firestore {
         && request.resource.data.prompt is string && request.resource.data.prompt.size() <= 3000
         && validContent(request.resource.data) && validStudentStatus(request.resource.data)
         && request.resource.data.feedback == '' && request.resource.data.scores == []
-        && request.resource.data.createdAt == request.time;
+        && request.resource.data.createdAt == request.time
+        && validWorkflow(request.resource.data) && validOrigin(request.resource.data, essayId);
       allow update: if (
         isStudent() && resource.data.ownerId == request.auth.uid && resource.data.status == 'draft'
-        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['text','wordCount','teacherId','status','updatedAt','submittedAt'])
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['text','wordCount','teacherId','status','updatedAt','submittedAt','plan','questionMarks','checks','goals'])
         && validContent(request.resource.data) && validStudentStatus(request.resource.data)
+        && validWorkflow(request.resource.data)
+        && (!('mode' in resource.data) || resource.data.mode != 'mock' || request.time <= resource.data.deadlineAt
+          || (request.resource.data.text == resource.data.text && request.resource.data.plan == resource.data.plan))
       ) || (
         isTeacher()
         && resource.data.status in ['submitted','reviewed']
-        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['feedback','scores','status','updatedAt','reviewedAt'])
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['feedback','scores','status','updatedAt','reviewedAt','goals','focus'])
         && request.resource.data.status == 'reviewed'
         && request.resource.data.feedback is string && request.resource.data.feedback.size() > 0
         && request.resource.data.feedback.size() <= 10000
@@ -76,8 +81,10 @@ service cloud.firestore {
         && validScore(request.resource.data.scores[2]) && validScore(request.resource.data.scores[3])
         && request.resource.data.updatedAt == request.time
         && request.resource.data.reviewedAt == request.time
+        && (!('goals' in request.resource.data) || validGoals(request.resource.data.goals))
+        && (!('focus' in request.resource.data) || validFocus(request.resource.data.focus))
       );
-      allow delete: if false;
+      allow delete: if own(resource.data.ownerId);
     }
     function validSection(section) {
       return section is map && section.keys().hasAll(['title','text','example'])
@@ -105,7 +112,7 @@ service cloud.firestore {
       allow read: if true;
       allow create: if isTeacher() && validMaterial(request.resource.data)
         && request.resource.data.keys().hasAll(['title','category','description','time','exercise','sections','createdBy','createdAt'])
-        && request.resource.data.keys().hasOnly(['title','category','description','time','exercise','sections','createdBy','createdAt'])
+        && request.resource.data.keys().hasOnly(['title','category','description','time','exercise','sections','createdBy','createdAt','number','practiceId'])
         && request.resource.data.description is string && request.resource.data.description.size() > 0 && request.resource.data.description.size() <= 1000
         && request.resource.data.time is int && request.resource.data.time >= 1 && request.resource.data.time <= 120
         && request.resource.data.exercise is string && request.resource.data.exercise.size() <= 3000
@@ -120,6 +127,118 @@ service cloud.firestore {
         && request.resource.data.type in ['Opinion essay','Discussion essay','Advantages & disadvantages','Problem & solution','Two-part question']
         && request.resource.data.prompt is string && request.resource.data.prompt.size() > 0 && request.resource.data.prompt.size() <= 3000;
       allow update, delete: if false;
+    }
+    function shortText(v, limit) { return v is string && v.size() <= limit; }
+    function validGoals(g) { return g is list && g.size() == 3 && shortText(g[0],500) && shortText(g[1],500) && shortText(g[2],500); }
+    function validFocus(f) { return f is list && f.size() <= 4 && f.hasOnly(['Task Response','Coherence & Cohesion','Lexical Resource','Grammar & Accuracy']); }
+    function validPlan(p) { return p is map && p.keys().hasAll(['analysis','ideas','introduction','body1','body2','conclusion']) && p.keys().hasOnly(['analysis','ideas','introduction','body1','body2','conclusion'])
+      && shortText(p.analysis,3000) && shortText(p.ideas,3000) && shortText(p.introduction,3000) && shortText(p.body1,3000) && shortText(p.body2,3000) && shortText(p.conclusion,3000); }
+    function fullPlan(p) { return p.analysis.size()>0 && p.ideas.size()>0 && p.introduction.size()>0 && p.body1.size()>0 && p.body2.size()>0 && p.conclusion.size()>0; }
+    function validWorkflow(d) { return !('plan' in d) || (validPlan(d.plan) && (!('questionMarks' in d) || (d.questionMarks is map && d.questionMarks.size()<=1000)) && d.checks is list && d.checks.size()==4 && d.checks.hasOnly([true,false]) && validGoals(d.goals)
+      && (d.status == 'draft' || (d.checks == [true,true,true,true] && fullPlan(d.plan) && d.goals[0].size()>0 && d.goals[1].size()>0 && d.goals[2].size()>0))); }
+    function validOrigin(d, id) { return (!('plan' in d) && !d.keys().hasAny(['lessonId','parentId','rootId','version','mode','startedAt','deadlineAt','questionMarks','checks','goals','focus'])) || ('plan' in d && (
+      d.keys().hasAll(['lessonId','parentId','rootId','version','mode','startedAt','deadlineAt','focus'])
+      && shortText(d.lessonId,100) && shortText(d.parentId,100) && shortText(d.rootId,100) && d.focus == []
+      && d.mode in ['practice','diagnostic','mock'] && d.version is int && d.version>0
+      && (d.lessonId == '' || get(/databases/$(database)/documents/lessons/$(d.lessonId)).data.practiceId == d.promptId)
+      && ((d.mode == 'diagnostic') == (d.promptId == 'course-foundation'))
+      && ((d.mode == 'mock') == (d.promptId == 'course-final'))
+      && (d.mode != 'mock' || (d.promptId == 'course-final' && d.startedAt is timestamp && d.deadlineAt is timestamp
+        && d.startedAt <= request.time && d.startedAt >= request.time - duration.value(60,'s')
+        && d.deadlineAt == d.startedAt + duration.value(2400,'s')))
+      && (d.parentId == '' ? (d.rootId == id && d.version == 1) : validParent(d))
+    )); }
+    function validParent(d) { let p = get(/databases/$(database)/documents/essays/$(d.parentId)).data;
+      return p.ownerId == request.auth.uid && p.status == 'reviewed' && p.promptId == d.promptId
+        && d.rootId == p.get('rootId',d.parentId) && d.version == p.get('version',1)+1
+        && d.lessonId == p.get('lessonId','') && d.mode == p.get('mode',p.promptId=='course-final'?'mock':p.promptId=='course-foundation'?'diagnostic':'practice'); }
+    function validQuestion(q) { return q.q is string && q.q.size()<=2000 && q.answer is string && q.why is string && q.options is list && q.options.size()>1 && q.options.size()<=8 && q.answer in q.options; }
+    function validQuestions(q) { return q is list && q.size()>0 && q.size()<=12
+      && (q.size()<=0 || validQuestion(q[0]))
+      && (q.size()<=1 || validQuestion(q[1]))
+      && (q.size()<=2 || validQuestion(q[2]))
+      && (q.size()<=3 || validQuestion(q[3]))
+      && (q.size()<=4 || validQuestion(q[4]))
+      && (q.size()<=5 || validQuestion(q[5]))
+      && (q.size()<=6 || validQuestion(q[6]))
+      && (q.size()<=7 || validQuestion(q[7]))
+      && (q.size()<=8 || validQuestion(q[8]))
+      && (q.size()<=9 || validQuestion(q[9]))
+      && (q.size()<=10 || validQuestion(q[10]))
+      && (q.size()<=11 || validQuestion(q[11]))
+    ; }
+    match /activities/{id} {
+      allow read: if true;
+      allow create: if isTeacher() && request.resource.data.keys().hasOnly(['title','lessonId','kind','questions','createdBy','createdAt'])
+        && request.resource.data.createdBy == request.auth.uid && request.resource.data.createdAt == request.time
+        && shortText(request.resource.data.title,300) && shortText(request.resource.data.lessonId,100)
+        && request.resource.data.kind in ['quiz','matching','order','gaps','sorting','editing'] && validQuestions(request.resource.data.questions);
+      allow update, delete: if false;
+    }
+    function validAttempt(d) { let a=get(/databases/$(database)/documents/activities/$(d.activityId)).data;
+      return d.keys().hasAll(['ownerId','activityId','lessonId','answers','submitted','updatedAt']) && d.keys().hasOnly(['ownerId','activityId','lessonId','answers','submitted','updatedAt'])
+        && isStudent() && d.ownerId==request.auth.uid && shortText(d.activityId,100) && d.lessonId==a.lessonId
+        && d.answers is list && d.answers.size()==a.questions.size() && d.submitted is bool && d.updatedAt==request.time
+        && (d.answers.size()<=0 || (d.answers[0] is string && (d.answers[0] in a.questions[0].options || (!d.submitted && d.answers[0]==''))))
+        && (d.answers.size()<=1 || (d.answers[1] is string && (d.answers[1] in a.questions[1].options || (!d.submitted && d.answers[1]==''))))
+        && (d.answers.size()<=2 || (d.answers[2] is string && (d.answers[2] in a.questions[2].options || (!d.submitted && d.answers[2]==''))))
+        && (d.answers.size()<=3 || (d.answers[3] is string && (d.answers[3] in a.questions[3].options || (!d.submitted && d.answers[3]==''))))
+        && (d.answers.size()<=4 || (d.answers[4] is string && (d.answers[4] in a.questions[4].options || (!d.submitted && d.answers[4]==''))))
+        && (d.answers.size()<=5 || (d.answers[5] is string && (d.answers[5] in a.questions[5].options || (!d.submitted && d.answers[5]==''))))
+        && (d.answers.size()<=6 || (d.answers[6] is string && (d.answers[6] in a.questions[6].options || (!d.submitted && d.answers[6]==''))))
+        && (d.answers.size()<=7 || (d.answers[7] is string && (d.answers[7] in a.questions[7].options || (!d.submitted && d.answers[7]==''))))
+        && (d.answers.size()<=8 || (d.answers[8] is string && (d.answers[8] in a.questions[8].options || (!d.submitted && d.answers[8]==''))))
+        && (d.answers.size()<=9 || (d.answers[9] is string && (d.answers[9] in a.questions[9].options || (!d.submitted && d.answers[9]==''))))
+        && (d.answers.size()<=10 || (d.answers[10] is string && (d.answers[10] in a.questions[10].options || (!d.submitted && d.answers[10]==''))))
+        && (d.answers.size()<=11 || (d.answers[11] is string && (d.answers[11] in a.questions[11].options || (!d.submitted && d.answers[11]==''))))
+    ; }
+    match /activityAttempts/{id} {
+      allow read: if own(resource.data.ownerId) || isTeacher();
+      allow create: if validAttempt(request.resource.data) && request.resource.data.submitted;
+      allow update: if false;
+      allow delete: if own(resource.data.ownerId);
+    }
+    match /activityDrafts/{id} {
+      allow read: if own(resource.data.ownerId) || (signedIn() && id.matches(request.auth.uid + '_.*')) || isTeacher();
+      allow create, update: if validAttempt(request.resource.data) && id == request.auth.uid + '_' + request.resource.data.activityId;
+      allow delete: if own(resource.data.ownerId);
+    }
+    function completedLesson(d) { let e=get(/databases/$(database)/documents/essays/$(d.essayId)).data;
+      let a=get(/databases/$(database)/documents/activityAttempts/$(d.attemptId)).data;
+      let activity=get(/databases/$(database)/documents/activities/$(a.activityId)).data;
+      return d.learned && e.ownerId==request.auth.uid && e.lessonId==d.lessonId && e.status=='reviewed'
+        && a.ownerId==request.auth.uid && a.lessonId==d.lessonId && a.submitted
+        && activity.questions.size()==2 && a.answers[0]==activity.questions[0].answer && a.answers[1]==activity.questions[1].answer;
+    }
+    match /lessonProgress/{id} {
+      allow read: if own(resource.data.ownerId) || (signedIn() && id.matches(request.auth.uid + '_.*')) || isTeacher();
+      allow create, update: if isStudent() && request.resource.data.keys().hasOnly(['ownerId','lessonId','notes','learned','completed','essayId','attemptId','updatedAt'])
+        && request.resource.data.ownerId==request.auth.uid && id==request.auth.uid+'_'+request.resource.data.lessonId
+        && exists(/databases/$(database)/documents/lessons/$(request.resource.data.lessonId))
+        && shortText(request.resource.data.notes,6000) && request.resource.data.learned is bool && request.resource.data.completed is bool
+        && shortText(request.resource.data.essayId,100) && shortText(request.resource.data.attemptId,100) && request.resource.data.updatedAt==request.time
+        && (!request.resource.data.completed || completedLesson(request.resource.data));
+      allow delete: if own(resource.data.ownerId);
+    }
+    match /reviewHistory/{id} {
+      allow read: if own(resource.data.ownerId) || isTeacher();
+      allow create: if isTeacher() && request.resource.data.keys().hasOnly(['ownerId','essayId','scores','feedback','goals','focus','createdAt'])
+        && request.resource.data.ownerId==getAfter(/databases/$(database)/documents/essays/$(request.resource.data.essayId)).data.ownerId
+        && getAfter(/databases/$(database)/documents/essays/$(request.resource.data.essayId)).data.status=='reviewed'
+        && request.resource.data.scores==getAfter(/databases/$(database)/documents/essays/$(request.resource.data.essayId)).data.scores
+        && request.resource.data.feedback==getAfter(/databases/$(database)/documents/essays/$(request.resource.data.essayId)).data.feedback
+        && request.resource.data.goals==getAfter(/databases/$(database)/documents/essays/$(request.resource.data.essayId)).data.goals
+        && request.resource.data.focus==getAfter(/databases/$(database)/documents/essays/$(request.resource.data.essayId)).data.focus
+        && request.resource.data.createdAt==request.time;
+      allow update: if false;
+      allow delete: if own(resource.data.ownerId);
+    }
+    match /analyses/{id} {
+      allow read: if own(resource.data.ownerId);
+      allow create: if isStudent() && request.resource.data.keys().hasOnly(['ownerId','question','text','createdAt']) && request.resource.data.ownerId==request.auth.uid
+        && shortText(request.resource.data.question,3000) && shortText(request.resource.data.text,20000) && request.resource.data.text.size()>0 && request.resource.data.createdAt==request.time;
+      allow update: if false;
+      allow delete: if own(resource.data.ownerId);
     }
     match /{document=**} { allow read, write: if false; }
   }

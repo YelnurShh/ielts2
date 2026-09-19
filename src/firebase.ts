@@ -1,10 +1,11 @@
 import { initializeApp } from 'firebase/app';
-import { getAuth } from 'firebase/auth';
-import { getFirestore } from 'firebase/firestore';
+import { getAuth, connectAuthEmulator } from 'firebase/auth';
+import { getFirestore, connectFirestoreEmulator } from 'firebase/firestore';
+const emulated = (import.meta as ImportMeta & {env:Record<string,string>}).env.VITE_FIREBASE_EMULATORS === 'true';
 const app = initializeApp({
   apiKey: 'AIzaSyBlNMf2g-_QdGhmAm0IPWN_GMVHYLYWrWM',
   authDomain: 'ieltsplatform-ee25e.firebaseapp.com',
-  projectId: 'ieltsplatform-ee25e',
+  projectId: emulated ? 'demo-ielts-mastery' : 'ieltsplatform-ee25e',
   storageBucket: 'ieltsplatform-ee25e.firebasestorage.app',
   messagingSenderId: '92624579719',
   appId: '1:92624579719:web:43cb27026f9e53f30a5c22',
@@ -12,6 +13,7 @@ const app = initializeApp({
 });
 export const auth = getAuth(app);
 export const db = getFirestore(app);
+if(emulated){connectAuthEmulator(auth,'http://127.0.0.1:9099',{disableWarnings:true});connectFirestoreEmulator(db,'127.0.0.1',8088);}
 export function errorMessage(error: unknown): string {
   const code = (error as {code?: string})?.code;
   const messages: Record<string, string> = {
@@ -25,6 +27,8 @@ export function errorMessage(error: unknown): string {
     'auth/operation-not-allowed': 'Бұл кіру тәсілі әлі қосылмаған. Сайт әкімшісіне хабарласысыңыз.',
     'auth/network-request-failed': 'Интернет байланысын тексеріп, қайта көріңіз.',
     'auth/too-many-requests': 'Тым көп әрекет жасалды. Біраздан кейін қайта көріңіз.',
+    'auth/wrong-password': 'Құпиясөз дұрыс емес.',
+    'auth/requires-recent-login': 'Қауіпсіздік үшін аккаунтқа қайта кіріп, әрекетті қайталаңыз.',
     'permission-denied': 'Деректерге қолжетімділік жоқ. Аккаунт рұқсатын немесе Firebase ережелерін тексеріңіз.',
     'unavailable': 'Сервермен байланыс үзілді. Мәтініңізді сақтап, қайта көріңіз.',
   };
