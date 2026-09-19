@@ -3,9 +3,11 @@ import { Link, NavLink } from 'react-router-dom';
 import { useAuth, logout } from './auth';
 import { errorMessage } from './firebase';
 import { TEACHER_UID } from './config';
+import { useLocale, type Locale } from './i18n';
 
 export function Header({onError}:{onError:(message:string)=>void}) {
   const {user,profile}=useAuth();
+  const {locale,setLocale}=useLocale();
   const teacher=user?.uid===TEACHER_UID||profile?.role==='teacher';
   const displayName=profile?.name?.trim()||user?.displayName?.trim()||'Қолданушы';
   const initials=displayName.split(/\s+/).slice(0,2).map(part=>Array.from(part)[0]).join('').toUpperCase();
@@ -25,6 +27,7 @@ export function Header({onError}:{onError:(message:string)=>void}) {
         <NavLink to="/dashboard">{profile?.role==='teacher'?'Оқушы жұмыстары':'Менің жұмыстарым'}</NavLink>
       </nav>
       <div className="site-account">
+        <div className="language-picker" role="group" aria-label="Interface language">{(['kk','ru','en'] as Locale[]).map(language=><button type="button" key={language} aria-pressed={locale===language} lang={language} onClick={()=>setLocale(language)}>{language==='kk'?'KZ':language.toUpperCase()}</button>)}</div>
         {user?<>
           <Link className={`site-profile profile-${teacher?'teacher':'student'}`} to="/dashboard" aria-label={`${displayName}, ${roleLabel} — жеке кабинет`} title={displayName}>
             <span className="site-avatar" aria-hidden="true">{initials||<UserRound size={20}/>}</span>

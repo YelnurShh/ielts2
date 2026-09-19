@@ -1,0 +1,3982 @@
+{
+  "0": [
+    "ӨШІРУ",
+    "ӨШІРУ"
+  ],
+  "1": [
+    "Email не найден.",
+    "Email not found."
+  ],
+  "2": [
+    "Удалить аккаунт",
+    "Delete account"
+  ],
+  "3": [
+    "Аккаунт, все эссе, прогресс, ответы на задания и сохранённые личные данные будут удалены навсегда.",
+    "Your account, essays, progress, activity answers and saved personal data will be permanently deleted."
+  ],
+  "4": [
+    "Это действие нельзя отменить.",
+    "This action cannot be undone."
+  ],
+  "5": [
+    "Текущий пароль",
+    "Current password"
+  ],
+  "6": [
+    "Для подтверждения введите ӨШІРУ",
+    "Type ӨШІРУ to confirm"
+  ],
+  "7": [
+    "На следующем шаге подтвердите свой аккаунт Google.",
+    "Next, verify your Google account again."
+  ],
+  "8": [
+    "Отмена",
+    "Cancel"
+  ],
+  "9": [
+    "Удаление…",
+    "Deleting…"
+  ],
+  "10": [
+    "Удалить всё навсегда",
+    "Permanently delete everything"
+  ],
+  "11": [
+    "Викторина",
+    "Quiz"
+  ],
+  "12": [
+    "Сопоставление",
+    "Matching"
+  ],
+  "13": [
+    "Определите порядок",
+    "Put in order"
+  ],
+  "14": [
+    "Заполните пропуск",
+    "Fill in the gap"
+  ],
+  "15": [
+    "Группировка",
+    "Categorisation"
+  ],
+  "16": [
+    "Исправьте ошибку",
+    "Error correction"
+  ],
+  "17": [
+    "Результат сохранён в базе.",
+    "Result saved."
+  ],
+  "18": [
+    "Ответы сохранены в базе.",
+    "Answers saved."
+  ],
+  "19": [
+    "Откройте страницу заново, чтобы загрузить ответы.",
+    "Reopen the page to load your answers."
+  ],
+  "20": [
+    "Перетащите описание к соответствующему критерию. На телефоне нажмите описание, затем критерий.",
+    "Drag each description to its criterion. On a phone, tap a description and then a criterion."
+  ],
+  "21": [
+    "Поместите сюда",
+    "Drop here"
+  ],
+  "22": [
+    "Удалить",
+    "Remove"
+  ],
+  "23": [
+    "Перетащите карточку идеи в нужный столбец. На телефоне нажмите карточку, затем столбец.",
+    "Drag an idea card to the appropriate column. On a phone, tap the card and then a column."
+  ],
+  "24": [
+    "Правильно:",
+    "Correct:"
+  ],
+  "25": [
+    "Перетащите предложения или используйте стрелки, чтобы расположить их в правильном порядке.",
+    "Drag the sentences or use the arrows to put them in order."
+  ],
+  "26": [
+    "Переместить вверх",
+    "Move up"
+  ],
+  "27": [
+    "Переместить вниз",
+    "Move down"
+  ],
+  "28": [
+    "Результат:",
+    "Result:"
+  ],
+  "29": [
+    "Попробовать снова",
+    "Try again"
+  ],
+  "30": [
+    "Сохранить ответы",
+    "Save answers"
+  ],
+  "31": [
+    "Проверить и сохранить",
+    "Check and save"
+  ],
+  "32": [
+    "Войдите, чтобы выполнять и сохранять задания",
+    "Sign in to complete and save activities"
+  ],
+  "33": [
+    "Верно!",
+    "Correct!"
+  ],
+  "34": [
+    "Правильный ответ:",
+    "Correct answer:"
+  ],
+  "35": [
+    "Интерактивные задания",
+    "Interactive activities"
+  ],
+  "36": [
+    "Закрепляйте Writing Task 2 в игровом формате: викторины, сопоставление, заполнение пропусков, порядок предложений, группировка и исправление ошибок.",
+    "Practise Writing Task 2 beyond lessons with quizzes, matching, gap fills, sentence ordering, categorisation and error correction."
+  ],
+  "37": [
+    "+ Добавить задание",
+    "+ Add activity"
+  ],
+  "38": [
+    "← Все задания",
+    "← All activities"
+  ],
+  "39": [
+    "Вернуться к уроку",
+    "Back to lesson"
+  ],
+  "40": [
+    "Поиск",
+    "Search"
+  ],
+  "41": [
+    "Название задания",
+    "Activity title"
+  ],
+  "42": [
+    "Задания ещё не добавлены.",
+    "No activities have been added yet."
+  ],
+  "43": [
+    "вопросов · ответы сохраняются в аккаунте",
+    "questions · answers saved to your account"
+  ],
+  "44": [
+    "В каждом вопросе должно быть три разных варианта ответа.",
+    "Each question must have three different answer options."
+  ],
+  "45": [
+    "Эта страница предназначена для учителя.",
+    "This page is for teachers."
+  ],
+  "46": [
+    "← Задания",
+    "← Activities"
+  ],
+  "47": [
+    "Добавить интерактивное задание",
+    "Add an interactive activity"
+  ],
+  "48": [
+    "Связать с уроком",
+    "Link to a lesson"
+  ],
+  "49": [
+    "Общее упражнение",
+    "General activity"
+  ],
+  "50": [
+    "Тип задания",
+    "Activity type"
+  ],
+  "51": [
+    "Группировка идей",
+    "Categorise ideas"
+  ],
+  "52": [
+    "-й вопрос",
+    " — question"
+  ],
+  "53": [
+    "Вопрос",
+    "Question"
+  ],
+  "54": [
+    "-й ответ",
+    " — answer"
+  ],
+  "55": [
+    "Правильный ответ",
+    "Correct answer"
+  ],
+  "56": [
+    "Объяснение",
+    "Explanation"
+  ],
+  "57": [
+    "Сохранить в базу",
+    "Save to database"
+  ],
+  "58": [
+    "Текст анализа сохранён.",
+    "Analysis text saved."
+  ],
+  "59": [
+    "ЛОКАЛЬНЫЙ АНАЛИЗ",
+    "LOCAL ANALYSIS"
+  ],
+  "60": [
+    "Проверьте своё эссе",
+    "Check your essay"
+  ],
+  "61": [
+    "Проверьте структуру, словоупотребление и основные особенности текста.",
+    "Check structure, word use and key writing features."
+  ],
+  "62": [
+    "Вопрос задания (необязательно)",
+    "Essay question (optional)"
+  ],
+  "63": [
+    "Текст эссе",
+    "Essay text"
+  ],
+  "64": [
+    "Анализ",
+    "Analyse"
+  ],
+  "65": [
+    "Текст анализируется только в браузере и не отправляется внешним сервисам. Сохранить результат в аккаунте можно кнопкой сохранения.",
+    "Your text is analysed in your browser, without being sent to external services. Use the save button to save it to your account."
+  ],
+  "66": [
+    "Текст изменился. Это результат предыдущей версии — повторите анализ.",
+    "The text has changed. This result is from the previous version; analyse again."
+  ],
+  "67": [
+    "Результат анализа",
+    "Analysis result"
+  ],
+  "68": [
+    "Сохранить анализ",
+    "Save analysis"
+  ],
+  "69": [
+    "Английских слов",
+    "English words"
+  ],
+  "70": [
+    "Абзацы",
+    "Paragraphs"
+  ],
+  "71": [
+    "Предложения",
+    "Sentences"
+  ],
+  "72": [
+    "Среднее число слов в предложении",
+    "Average words per sentence"
+  ],
+  "73": [
+    "Количество слов оценивается по английским буквам, предложений — по знакам препинания. Разделяйте абзацы пустой строкой.",
+    "Word counts use English letters and sentence counts use punctuation, so both are approximate. Separate paragraphs with a blank line."
+  ],
+  "74": [
+    "На что обратить внимание",
+    "Points to check"
+  ],
+  "75": [
+    "По простым правилам замечаний нет. Это не означает, что в эссе нет ошибок.",
+    "No warnings were found by the basic rules. This does not mean the essay is error-free."
+  ],
+  "76": [
+    "Часто повторяющиеся слова",
+    "Frequently repeated words"
+  ],
+  "77": [
+    "раз",
+    "times"
+  ],
+  "78": [
+    "Среди проверяемых значимых слов нет слов с более чем 4 повторами.",
+    "No checked content word appears more than four times."
+  ],
+  "79": [
+    "Повтор ключевого слова темы не является ошибкой. Выбирайте синонимы по смыслу.",
+    "Repeating a key topic word is not necessarily an error. Choose synonyms that fit the meaning."
+  ],
+  "80": [
+    "Связующие выражения",
+    "Linking expressions"
+  ],
+  "81": [
+    "Проверяемые выражения не найдены.",
+    "No listed expressions were found."
+  ],
+  "82": [
+    "Поиск выполняется по ограниченному списку. Количество связок не определяет качество логики текста.",
+    "This search uses a limited list. The number of linking expressions does not determine coherence."
+  ],
+  "83": [
+    "Совпадения со словами вопроса",
+    "Words shared with the question"
+  ],
+  "84": [
+    "Точных совпадений со словами вопроса нет.",
+    "No exact matches with question words were found."
+  ],
+  "85": [
+    "Это только точные совпадения слов. Синонимы и смысл не оцениваются — проверьте соответствие вопросу самостоятельно.",
+    "Only exact word matches are checked. Synonyms and meaning are not assessed; check that you answer the question yourself."
+  ],
+  "86": [
+    "Длинные предложения",
+    "Long sentences"
+  ],
+  "87": [
+    "Самопроверка",
+    "Self-check"
+  ],
+  "88": [
+    "Я ответил на все части вопроса.",
+    "I have answered every part of the question."
+  ],
+  "89": [
+    "Моя позиция ясна и подкреплена аргументами.",
+    "My position is clear and supported by arguments."
+  ],
+  "90": [
+    "В каждом основном абзаце есть объяснение и уместный пример.",
+    "Each body paragraph has an explanation and a relevant example."
+  ],
+  "91": [
+    "Я не добавлял новый аргумент в заключении.",
+    "I have not introduced a new argument in the conclusion."
+  ],
+  "92": [
+    "Я повторно проверил грамматику и словоупотребление.",
+    "I have checked grammar and word use again."
+  ],
+  "93": [
+    "Это вспомогательный инструмент на основе правил. Он не выставляет IELTS band, не оценивает качество идей и не находит все грамматические ошибки. Для полной обратной связи отправьте работу учителю.",
+    "This rule-based helper does not award an IELTS band, assess idea quality or detect all grammar errors. Send your work to a teacher for full feedback."
+  ],
+  "94": [
+    "Сохранённые анализы",
+    "Saved analyses"
+  ],
+  "95": [
+    "Загрузка…",
+    "Loading…"
+  ],
+  "96": [
+    "Сохранённых анализов нет.",
+    "No saved analyses."
+  ],
+  "97": [
+    "Установить курс в базу",
+    "Install course in database"
+  ],
+  "98": [
+    "34 урока, письменные задания и интерактивные упражнения однократно копируются в Firebase. Сайт загружает материалы из базы.",
+    "The 34 lessons, writing prompts and activities are copied to Firebase once. The site loads learning materials from the database."
+  ],
+  "99": [
+    "Копирование в базу…",
+    "Copying to database…"
+  ],
+  "100": [
+    "Добавить недостающие материалы",
+    "Add missing materials"
+  ],
+  "101": [
+    "Пользователь",
+    "User"
+  ],
+  "102": [
+    "Учитель",
+    "Teacher"
+  ],
+  "103": [
+    "Ученик",
+    "Student"
+  ],
+  "104": [
+    "IELTS Writing Mastery — главная",
+    "IELTS Writing Mastery — home"
+  ],
+  "105": [
+    "Основное меню",
+    "Main navigation"
+  ],
+  "106": [
+    "Главная",
+    "Home"
+  ],
+  "107": [
+    "Уроки",
+    "Lessons"
+  ],
+  "108": [
+    "Практика",
+    "Practice"
+  ],
+  "109": [
+    "Задания",
+    "Activities"
+  ],
+  "110": [
+    "Анализ эссе",
+    "Essay analysis"
+  ],
+  "111": [
+    "Работы учеников",
+    "Student work"
+  ],
+  "112": [
+    "Мои работы",
+    "My work"
+  ],
+  "113": [
+    "Выйти из аккаунта",
+    "Sign out"
+  ],
+  "114": [
+    "Войти",
+    "Sign in"
+  ],
+  "115": [
+    "Регистрация",
+    "Register"
+  ],
+  "116": [
+    "Нет оценки",
+    "Not graded"
+  ],
+  "117": [
+    "Первое эссе",
+    "First essay"
+  ],
+  "118": [
+    "Мастер переработки",
+    "Revision master"
+  ],
+  "119": [
+    "Курс завершён",
+    "Course completed"
+  ],
+  "120": [
+    "Финальный тест сдан",
+    "Final test submitted"
+  ],
+  "121": [
+    "Кабинет учителя",
+    "Teacher dashboard"
+  ],
+  "122": [
+    "Мой учебный путь",
+    "My learning journey"
+  ],
+  "123": [
+    "Устраните ошибку загрузки данных для полного отчёта.",
+    "Resolve the data loading error to view the full report."
+  ],
+  "124": [
+    "Все ученики",
+    "All students"
+  ],
+  "125": [
+    "Отчёт по классу",
+    "Class report"
+  ],
+  "126": [
+    "учеников ·",
+    "students ·"
+  ],
+  "127": [
+    "непроверенных работ",
+    "works awaiting review"
+  ],
+  "128": [
+    "Урок",
+    "Lesson"
+  ],
+  "129": [
+    "Средняя оценка",
+    "Average score"
+  ],
+  "130": [
+    "Требует внимания",
+    "Needs attention"
+  ],
+  "131": [
+    "Нет данных",
+    "No data"
+  ],
+  "132": [
+    "Не отмечено",
+    "Not marked"
+  ],
+  "133": [
+    "«Требует внимания» — навыки, отмеченные учителем при проверке.",
+    "“Needs attention” shows skills marked by a teacher during review."
+  ],
+  "134": [
+    "Завершённые уроки",
+    "Completed lessons"
+  ],
+  "135": [
+    "Проверенные работы",
+    "Reviewed work"
+  ],
+  "136": [
+    "Учебные баллы",
+    "Learning points"
+  ],
+  "137": [
+    "Правильно выполненные упражнения",
+    "Activities passed"
+  ],
+  "138": [
+    "XP: завершённый урок +10, упражнение без ошибок +10, полный сохранённый план +15, отправленное эссе/переработка +30, финальная работа +50. Каждая запись учитывается один раз.",
+    "XP: completed lesson +10, perfect activity +10, saved complete plan +15, submitted essay/revision +30, final work +50. Each record is counted once."
+  ],
+  "139": [
+    "ПРОГРЕСС КУРСА",
+    "COURSE PROGRESS"
+  ],
+  "140": [
+    "Продолжайте учиться",
+    "Keep learning"
+  ],
+  "141": [
+    "Текущий раздел:",
+    "Current section:"
+  ],
+  "142": [
+    "Прогресс курса",
+    "Course progress"
+  ],
+  "143": [
+    "уроков завершено",
+    "lessons completed"
+  ],
+  "144": [
+    "Всего",
+    "All"
+  ],
+  "145": [
+    "уроков",
+    "lessons"
+  ],
+  "146": [
+    "Продолжить:",
+    "Continue:"
+  ],
+  "147": [
+    "Начальное диагностическое эссе",
+    "Initial diagnostic essay"
+  ],
+  "148": [
+    "Результаты по четырём критериям",
+    "Results across four criteria"
+  ],
+  "149": [
+    "НАВЫК, ТРЕБУЮЩИЙ ВНИМАНИЯ",
+    "SKILL TO FOCUS ON"
+  ],
+  "150": [
+    "Рекомендация основана на средних оценках учителя.",
+    "This recommendation is based on average teacher scores."
+  ],
+  "151": [
+    "Повторить навык →",
+    "Practise this skill →"
+  ],
+  "152": [
+    "Личные цели развития",
+    "Personal learning goals"
+  ],
+  "153": [
+    "Следующие шаги от учителя",
+    "Next steps from your teacher"
+  ],
+  "154": [
+    "Выберите ученика, чтобы увидеть личные цели.",
+    "Select a student to view their goals."
+  ],
+  "155": [
+    "Цели появятся после проверки работы учителем.",
+    "Goals appear after your teacher reviews your work."
+  ],
+  "156": [
+    "Отметки при проверке",
+    "Review focus areas"
+  ],
+  "157": [
+    "В скольких работах отмечен каждый навык",
+    "Number of works flagged for each skill"
+  ],
+  "158": [
+    "работ",
+    "works"
+  ],
+  "159": [
+    "Учитель ещё не отметил навыки.",
+    "Your teacher has not flagged any skills yet."
+  ],
+  "160": [
+    "История оценок",
+    "Score history"
+  ],
+  "161": [
+    "Работа",
+    "Work"
+  ],
+  "162": [
+    "Проверенных работ нет.",
+    "No reviewed work yet."
+  ],
+  "163": [
+    "Диагностика → финальный тест",
+    "Diagnostic → final test"
+  ],
+  "164": [
+    "Начальный результат:",
+    "Initial result:"
+  ],
+  "165": [
+    "Ещё не оценено",
+    "Not graded yet"
+  ],
+  "166": [
+    "· Финальный результат:",
+    "· Final result:"
+  ],
+  "167": [
+    "Изменение средней оценки:",
+    "Change in average score:"
+  ],
+  "168": [
+    ". Это учебные оценки учителя, а не официальные результаты IELTS.",
+    ". These are teacher assessments, not official IELTS results."
+  ],
+  "169": [
+    "Перейти к финальному тесту",
+    "Go to final test"
+  ],
+  "170": [
+    "Работы и версии",
+    "Work and versions"
+  ],
+  "171": [
+    "Портфолио письменных работ",
+    "Writing portfolio"
+  ],
+  "172": [
+    "Черновики",
+    "Drafts"
+  ],
+  "173": [
+    "Проверить",
+    "Review"
+  ],
+  "174": [
+    "Проверено",
+    "Reviewed"
+  ],
+  "175": [
+    "Пока нет работ.",
+    "No work yet."
+  ],
+  "176": [
+    "Письменная работа",
+    "Writing assignment"
+  ],
+  "177": [
+    "-я версия ·",
+    " — version ·"
+  ],
+  "178": [
+    "Черновик",
+    "Draft"
+  ],
+  "179": [
+    "Данные урока сохранены.",
+    "Lesson data saved."
+  ],
+  "180": [
+    "Войдите",
+    "Sign in"
+  ],
+  "181": [
+    ": записи, задания и прогресс сохраняются в аккаунте.",
+    ": notes, activities and progress are saved to your account."
+  ],
+  "182": [
+    "Теория прочитана",
+    "Theory read"
+  ],
+  "183": [
+    "Интерактивное упражнение выполнено без ошибок",
+    "Interactive activity completed correctly"
+  ],
+  "184": [
+    "Эссе, связанное с уроком, проверено учителем",
+    "The linked essay has been reviewed by a teacher"
+  ],
+  "185": [
+    "Выполнение урока",
+    "Complete the lesson"
+  ],
+  "186": [
+    "Чтение → упражнение → план → эссе → обратная связь → переработка.",
+    "Read → practise → plan → essay → feedback → revision."
+  ],
+  "187": [
+    "Я прочитал теорию и понял пример",
+    "I have read the theory and understood the example"
+  ],
+  "188": [
+    "Краткая заметка по уроку",
+    "Short lesson note"
+  ],
+  "189": [
+    "Необязательно: запишите, что вы поняли, или правило, которое хотите запомнить.",
+    "Optional: note what you learned or a rule you want to remember."
+  ],
+  "190": [
+    "Сохранить заметку",
+    "Save note"
+  ],
+  "191": [
+    "Для этого урока ещё нет интерактивного упражнения.",
+    "No interactive activity has been added to this lesson yet."
+  ],
+  "192": [
+    "Перейти к плану и эссе",
+    "Go to plan and essay"
+  ],
+  "193": [
+    "Условия завершения урока",
+    "Lesson completion requirements"
+  ],
+  "194": [
+    "✓ Урок завершён",
+    "✓ Lesson completed"
+  ],
+  "195": [
+    "Завершить урок",
+    "Complete lesson"
+  ],
+  "196": [
+    "Тема",
+    "Topic"
+  ],
+  "197": [
+    "Задача",
+    "Task"
+  ],
+  "198": [
+    "Ограничение",
+    "Scope"
+  ],
+  "199": [
+    "Причина",
+    "Cause"
+  ],
+  "200": [
+    "Проблема",
+    "Problem"
+  ],
+  "201": [
+    "Решение",
+    "Solution"
+  ],
+  "202": [
+    "Разберите вопрос на части",
+    "Break down the question"
+  ],
+  "203": [
+    "Выберите тип отметки и нажимайте на слова вопроса. Повторное нажатие снимает отметку. Отметки сохраняются вместе с эссе.",
+    "Choose a mark type and tap words in the question. Tap again to remove a mark. Marks are saved with your essay."
+  ],
+  "204": [
+    "Тип отметки",
+    "Mark type"
+  ],
+  "205": [
+    "Какой минимальный объём эссе Writing Task 2?",
+    "What is the minimum word count for Writing Task 2?"
+  ],
+  "206": [
+    "150 слов",
+    "150 words"
+  ],
+  "207": [
+    "200 слов",
+    "200 words"
+  ],
+  "208": [
+    "250 слов",
+    "250 words"
+  ],
+  "209": [
+    "350 слов",
+    "350 words"
+  ],
+  "210": [
+    "Для Task 2 нужно минимум 250 слов. Раскрывайте мысли полностью, не добавляя предложения только ради объёма.",
+    "Task 2 requires at least 250 words. Develop ideas fully without adding sentences just to increase length."
+  ],
+  "211": [
+    "Сколько времени рекомендуется выделить на Task 2?",
+    "How much time should you allow for Task 2?"
+  ],
+  "212": [
+    "20 минут",
+    "20 minutes"
+  ],
+  "213": [
+    "30 минут",
+    "30 minutes"
+  ],
+  "214": [
+    "40 минут",
+    "40 minutes"
+  ],
+  "215": [
+    "60 минут",
+    "60 minutes"
+  ],
+  "216": [
+    "Из 60 минут Writing рекомендуется оставить около 40 минут на Task 2.",
+    "Allow about 40 of the 60 Writing minutes for Task 2."
+  ],
+  "217": [
+    "Что требует «Discuss both views and give your own opinion»?",
+    "What does “Discuss both views and give your own opinion” require?"
+  ],
+  "218": [
+    "Написать только своё мнение",
+    "Write only your own opinion"
+  ],
+  "219": [
+    "Объяснить обе точки зрения и выразить своё мнение",
+    "Explain both views and give your own opinion"
+  ],
+  "220": [
+    "Критиковать только противоположную точку зрения",
+    "Only criticise the opposing view"
+  ],
+  "221": [
+    "Кратко описать тему",
+    "Briefly describe the topic"
+  ],
+  "222": [
+    "Нужно раскрыть все части вопроса: обсудить обе точки зрения и ясно выразить свою позицию.",
+    "Address every part: discuss both views and make your position clear."
+  ],
+  "223": [
+    "Что такое thesis statement?",
+    "What is a thesis statement?"
+  ],
+  "224": [
+    "Любой интересный факт",
+    "Any interesting fact"
+  ],
+  "225": [
+    "Список примеров",
+    "A list of examples"
+  ],
+  "226": [
+    "Предложение, выражающее основную позицию эссе",
+    "A sentence expressing the essay's central position"
+  ],
+  "227": [
+    "Словарное определение",
+    "A dictionary definition"
+  ],
+  "228": [
+    "Thesis statement показывает основной ответ читателю. Обычно он находится во вступлении.",
+    "A thesis statement tells the reader your main answer. It usually appears in the introduction."
+  ],
+  "229": [
+    "Как эффективнее развить основной абзац?",
+    "How can you effectively develop a body paragraph?"
+  ],
+  "230": [
+    "Мысль → объяснение → конкретный пример",
+    "Idea → explanation → specific example"
+  ],
+  "231": [
+    "Много связок → краткий вывод",
+    "Many linkers → short conclusion"
+  ],
+  "232": [
+    "Несколько несвязанных мыслей",
+    "Several unrelated ideas"
+  ],
+  "233": [
+    "Только статистика",
+    "Statistics only"
+  ],
+  "234": [
+    "Объяснение мысли и конкретный пример развивают аргумент. Пример должен соответствовать вопросу.",
+    "Explain your idea and support it with a specific example relevant to the question."
+  ],
+  "235": [
+    "Что прежде всего оценивает Task Response?",
+    "What does Task Response mainly assess?"
+  ],
+  "236": [
+    "Красоту почерка",
+    "Neat handwriting"
+  ],
+  "237": [
+    "Ответ на вопрос и развитие идей",
+    "Answering the question and developing ideas"
+  ],
+  "238": [
+    "Только пунктуацию",
+    "Punctuation only"
+  ],
+  "239": [
+    "Только количество абзацев",
+    "Paragraph count only"
+  ],
+  "240": [
+    "Task Response оценивает полноту ответа, ясность позиции и обоснованность идей.",
+    "Task Response assesses how fully you answer, the clarity of your position and the support for your ideas."
+  ],
+  "241": [
+    "Что важно для Coherence and Cohesion?",
+    "What matters for Coherence and Cohesion?"
+  ],
+  "242": [
+    "Начинать каждое предложение с Moreover",
+    "Start every sentence with Moreover"
+  ],
+  "243": [
+    "Заменять все слова сложными синонимами",
+    "Replace every word with a complex synonym"
+  ],
+  "244": [
+    "Логический порядок и естественная связь мыслей",
+    "Logical order and natural connections between ideas"
+  ],
+  "245": [
+    "Писать эссе одним абзацем",
+    "Write the essay as one paragraph"
+  ],
+  "246": [
+    "Читатель должен легко следить за мыслью. Связки показывают логику, но не заменяют её.",
+    "Readers should follow your ideas easily. Linking words signal logic but do not replace it."
+  ],
+  "247": [
+    "Когда уместно использовать However?",
+    "When should you use However?"
+  ],
+  "248": [
+    "При введении противоположной мысли",
+    "To introduce a contrast"
+  ],
+  "249": [
+    "При введении примера",
+    "To introduce an example"
+  ],
+  "250": [
+    "При повторении той же мысли",
+    "To repeat the same idea"
+  ],
+  "251": [
+    "В начале любого предложения",
+    "At the start of any sentence"
+  ],
+  "252": [
+    "However выражает противопоставление. Для примера используют for example, для следствия — therefore.",
+    "However signals contrast. Use for example for an example and therefore for a result."
+  ],
+  "253": [
+    "Что улучшает Lexical Resource?",
+    "What improves Lexical Resource?"
+  ],
+  "254": [
+    "Добавлять сложные слова с неизвестным значением",
+    "Add complex words you do not understand"
+  ],
+  "255": [
+    "Повторять одно слово в каждом предложении",
+    "Repeat one word in every sentence"
+  ],
+  "256": [
+    "Использовать точные значения и правильные сочетания",
+    "Use precise meanings and correct collocations"
+  ],
+  "257": [
+    "Использовать только короткие слова",
+    "Use only short words"
+  ],
+  "258": [
+    "Важны и диапазон, и точность словаря. Make a decision и develop a skill — естественные сочетания.",
+    "Both range and accuracy matter. Make a decision and develop a skill are natural collocations."
+  ],
+  "259": [
+    "Что нужно сделать в заключении?",
+    "What should you do in the conclusion?"
+  ],
+  "260": [
+    "Добавить новый основной аргумент",
+    "Add a new main argument"
+  ],
+  "261": [
+    "Обобщить ответ и подтвердить позицию",
+    "Summarise the answer and reaffirm your position"
+  ],
+  "262": [
+    "Полностью скопировать вопрос",
+    "Copy the entire question"
+  ],
+  "263": [
+    "Дать несвязанный совет",
+    "Give unrelated advice"
+  ],
+  "264": [
+    "Заключение обобщает основной ответ. Не вводите важный новый аргумент в конце.",
+    "The conclusion summarises your answer. Do not introduce a major new argument at the end."
+  ],
+  "265": [
+    "Что требует «Do the advantages outweigh the disadvantages?»?",
+    "What does “Do the advantages outweigh the disadvantages?” require?"
+  ],
+  "266": [
+    "Только перечислить преимущества",
+    "List advantages only"
+  ],
+  "267": [
+    "Рассмотреть обе стороны и обосновать, какая перевешивает",
+    "Consider both sides and justify which outweighs the other"
+  ],
+  "268": [
+    "Не выражать своё мнение",
+    "Avoid giving your opinion"
+  ],
+  "269": [
+    "Написать только список примеров",
+    "Write only a list of examples"
+  ],
+  "270": [
+    "Outweigh требует сравнения и оценки. Рассмотрите плюсы и минусы и обоснуйте, что перевешивает.",
+    "Outweigh requires comparison and evaluation. Consider advantages and disadvantages and explain which are more significant."
+  ],
+  "271": [
+    "Что полезнее при финальной проверке эссе?",
+    "What is most useful in the final essay check?"
+  ],
+  "272": [
+    "Удлинить все предложения",
+    "Make every sentence longer"
+  ],
+  "273": [
+    "Добавить случайные сложные слова",
+    "Add random complex words"
+  ],
+  "274": [
+    "Проверить полноту ответа, логику и языковые ошибки",
+    "Check coverage, logic and language errors"
+  ],
+  "275": [
+    "Только увеличить число слов",
+    "Only increase the word count"
+  ],
+  "276": [
+    "Самопроверка охватывает содержание, связность, лексику и грамматику. Сначала исправляйте ошибки, мешающие смыслу.",
+    "Check content, coherence, vocabulary and grammar. Fix errors that obscure meaning first."
+  ],
+  "277": [
+    "ЗАКРЕПИТЕ ЗНАНИЯ",
+    "CONSOLIDATE YOUR KNOWLEDGE"
+  ],
+  "278": [
+    "Викторина Writing Task 2",
+    "Writing Task 2 quiz"
+  ],
+  "279": [
+    "12 вопросов. После каждого ответа — краткое объяснение.",
+    "12 questions, with a short explanation after each answer."
+  ],
+  "280": [
+    "Викторина завершена!",
+    "Quiz completed!"
+  ],
+  "281": [
+    "Вы хорошо освоили основы!",
+    "You have a strong grasp of the basics!"
+  ],
+  "282": [
+    "Хорошее начало! Повторите объяснения к ошибкам.",
+    "A good start! Review the explanations for incorrect answers."
+  ],
+  "283": [
+    "Прочитайте объяснения и попробуйте снова. Каждый шаг приносит новые знания.",
+    "Read the explanations and try again. Each step builds your knowledge."
+  ],
+  "284": [
+    "Это результат учебного упражнения, а не IELTS band.",
+    "This is a practice result, not an IELTS band score."
+  ],
+  "285": [
+    "Пройти снова",
+    "Try again"
+  ],
+  "286": [
+    "Ваш ответ:",
+    "Your answer:"
+  ],
+  "287": [
+    "вопрос",
+    "question"
+  ],
+  "288": [
+    "правильных ответов",
+    "correct answers"
+  ],
+  "289": [
+    "Прогресс викторины",
+    "Quiz progress"
+  ],
+  "290": [
+    "Посмотреть результат",
+    "View result"
+  ],
+  "291": [
+    "Следующий вопрос",
+    "Next question"
+  ],
+  "292": [
+    "Проверить ответ",
+    "Check answer"
+  ],
+  "293": [
+    "Прогресс хранится только на этой странице. При обновлении или переходе викторина начнётся заново.",
+    "Progress is held on this page only. Refreshing or leaving restarts the quiz."
+  ],
+  "294": [
+    "Работа не найдена.",
+    "Work not found."
+  ],
+  "295": [
+    "Заполните четыре оценки, отзыв и три конкретные цели.",
+    "Enter four scores, feedback and three specific learning goals."
+  ],
+  "296": [
+    "← Вернуться к работам",
+    "← Back to work"
+  ],
+  "297": [
+    "Работа по уроку:",
+    "Lesson assignment:"
+  ],
+  "298": [
+    "План и анализ вопроса",
+    "Plan and question analysis"
+  ],
+  "299": [
+    "Самопроверка:",
+    "Self-check:"
+  ],
+  "300": [
+    "Сравнение версий",
+    "Compare versions"
+  ],
+  "301": [
+    "Версия для сравнения",
+    "Version to compare"
+  ],
+  "302": [
+    "Выберите предыдущую версию",
+    "Select a previous version"
+  ],
+  "303": [
+    "Количество слов:",
+    "Word count:"
+  ],
+  "304": [
+    "Средняя оценка:",
+    "Average score:"
+  ],
+  "305": [
+    "Обратная связь",
+    "Feedback"
+  ],
+  "306": [
+    "Выберите оценку",
+    "Select a score"
+  ],
+  "307": [
+    "Отзыв",
+    "Feedback"
+  ],
+  "308": [
+    "Навыки, требующие внимания",
+    "Skills to focus on"
+  ],
+  "309": [
+    "-я личная задача",
+    " — personal goal"
+  ],
+  "310": [
+    "Отправить обратную связь",
+    "Send feedback"
+  ],
+  "311": [
+    "Учебная оценка:",
+    "Practice score:"
+  ],
+  "312": [
+    "Следующие три цели",
+    "Next three goals"
+  ],
+  "313": [
+    "Переписать по отзыву",
+    "Revise using feedback"
+  ],
+  "314": [
+    "Вернуться к прогрессу урока",
+    "Back to lesson progress"
+  ],
+  "315": [
+    "Отзыв появится здесь после проверки учителем.",
+    "Feedback will appear here after teacher review."
+  ],
+  "316": [
+    "Учебная оценка не является официальным результатом IELTS.",
+    "This practice score is not an official IELTS result."
+  ],
+  "317": [
+    "История обратной связи (",
+    "Feedback history ("
+  ],
+  "318": [
+    "Полный ответ на вопрос и развитие идей",
+    "Fully answering the question and developing ideas"
+  ],
+  "319": [
+    "Логический порядок и связь мыслей",
+    "Logical order and connections between ideas"
+  ],
+  "320": [
+    "Диапазон и точность словаря",
+    "Vocabulary range and precision"
+  ],
+  "321": [
+    "Диапазон и правильность грамматических структур",
+    "Grammatical range and accuracy"
+  ],
+  "322": [
+    "Второе предложение противопоставляет ограничение первой мысли.",
+    "The second sentence introduces a contrasting limitation."
+  ],
+  "323": [
+    "Второе предложение выражает следствие предыдущей мысли.",
+    "The second sentence gives a consequence of the first idea."
+  ],
+  "324": [
+    "Ведение бюджета — конкретный пример практического навыка.",
+    "Budgeting is a specific example of a practical skill."
+  ],
+  "325": [
+    "Второе предложение добавляет ещё одно преимущество.",
+    "The second sentence adds another advantage."
+  ],
+  "326": [
+    "Рост числа личных автомобилей может вызывать пробки.",
+    "An increase in private cars can cause congestion."
+  ],
+  "327": [
+    "Улучшение автобусного сообщения стимулирует использование общественного транспорта.",
+    "Improving bus services encourages public transport use."
+  ],
+  "328": [
+    "Следствие",
+    "Effect"
+  ],
+  "329": [
+    "Потеря времени в дороге — результат пробок.",
+    "Time lost on the road is a consequence of congestion."
+  ],
+  "330": [
+    "Велодорожки создают альтернативу личному автомобилю.",
+    "Cycle lanes provide an alternative to private cars."
+  ],
+  "331": [
+    "Недостаток общественного транспорта может усиливать зависимость от автомобиля.",
+    "Limited public transport can increase dependence on private cars."
+  ],
+  "332": [
+    "Какое предложение грамматически верно?",
+    "Which sentence is grammatically correct?"
+  ],
+  "333": [
+    "Technology — подлежащее в единственном числе. В Present Simple используется helps.",
+    "Technology is a singular subject, so use helps in the present simple."
+  ],
+  "334": [
+    "Какой вариант академичен и точен?",
+    "Which option is academic and precise?"
+  ],
+  "335": [
+    "Этот вариант избегает разговорных слов и необоснованных абсолютных утверждений.",
+    "This option avoids informal wording and unsupported absolute claims."
+  ],
+  "336": [
+    "Где артикль использован правильно?",
+    "Which sentence uses the article correctly?"
+  ],
+  "337": [
+    "Important начинается с гласного звука. Перед исчисляемым role в единственном числе нужен an.",
+    "Important begins with a vowel sound. Singular countable role requires an here."
+  ],
+  "338": [
+    "Какой вариант лучше развивает аргумент?",
+    "Which option develops the argument better?"
+  ],
+  "339": [
+    "Предложение не только называет пользу, но и объясняет её механизм.",
+    "The sentence explains how the benefit works, rather than simply naming it."
+  ],
+  "340": [
+    "Закрепите основы Task 2 с помощью 12 вопросов.",
+    "Consolidate Task 2 basics with 12 questions."
+  ],
+  "341": [
+    "12 вопросов · 5 минут",
+    "12 questions · 5 minutes"
+  ],
+  "342": [
+    "Соотнесите критерий оценки с его значением.",
+    "Match each assessment criterion to its meaning."
+  ],
+  "343": [
+    "4 пары · 3 минуты",
+    "4 pairs · 3 minutes"
+  ],
+  "344": [
+    "Соберите абзац",
+    "Build a paragraph"
+  ],
+  "345": [
+    "Расположите предложения: мысль, объяснение, пример, вывод.",
+    "Order the sentences: idea, explanation, example, conclusion."
+  ],
+  "346": [
+    "4 предложения · 3 минуты",
+    "4 sentences · 3 minutes"
+  ],
+  "347": [
+    "Заполните пропуск",
+    "Fill the gap"
+  ],
+  "348": [
+    "Выберите связку по смыслу предложений.",
+    "Choose the linker that fits the meaning."
+  ],
+  "349": [
+    "Сгруппируйте идеи",
+    "Group the ideas"
+  ],
+  "350": [
+    "Различите причины, следствия и решения проблемы пробок.",
+    "Distinguish causes, effects and solutions for traffic congestion."
+  ],
+  "351": [
+    "5 идей · 4 минуты",
+    "5 ideas · 4 minutes"
+  ],
+  "352": [
+    "Выберите правильный вариант",
+    "Choose the correct option"
+  ],
+  "353": [
+    "Грамматика, академический стиль и развитие аргумента.",
+    "Grammar, academic style and argument development."
+  ],
+  "354": [
+    "4 вопроса · 4 минуты",
+    "4 questions · 4 minutes"
+  ],
+  "355": [
+    "ПЕРЕХОДИТЕ ОТ ЗНАНИЙ К ПРАКТИКЕ",
+    "PUT LEARNING INTO PRACTICE"
+  ],
+  "356": [
+    "Развивайте Writing Task 2 с помощью разных коротких упражнений.",
+    "Develop Writing Task 2 skills with varied short activities."
+  ],
+  "357": [
+    "Все задания",
+    "All activities"
+  ],
+  "358": [
+    "Выберите описание для каждого критерия.",
+    "Choose the description for each criterion."
+  ],
+  "359": [
+    "Выберите описание",
+    "Select a description"
+  ],
+  "360": [
+    "Соберите логичный абзац с помощью стрелок.",
+    "Use the arrows to build a logical paragraph."
+  ],
+  "361": [
+    "Порядок: основная мысль → объяснение → пример → вывод.",
+    "Order: main idea → explanation → example → conclusion."
+  ],
+  "362": [
+    "Сначала даётся тезис, затем объяснение и пример. Therefore связывает заключительную мысль.",
+    "State the main idea first, then explain and illustrate it. Therefore links the final point."
+  ],
+  "363": [
+    "Тема: городские пробки.",
+    "Topic: urban traffic congestion."
+  ],
+  "364": [
+    "Всё верно! Переходите к следующему упражнению.",
+    "All correct! Move on to the next activity."
+  ],
+  "365": [
+    "Посмотрите объяснения и попробуйте ещё раз.",
+    "Review the explanations and try again."
+  ],
+  "366": [
+    "Упражнения предназначены для обучения. Результат хранится на этой странице; обновление или переход сбрасывает его.",
+    "These are learning activities. Results are held on this page and reset when you refresh or leave."
+  ],
+  "367": [
+    "Введите специальный код учителя.",
+    "Enter the teacher access code."
+  ],
+  "368": [
+    "Неверный код или регистрация ещё не включена.",
+    "The code is incorrect or registration is not enabled yet."
+  ],
+  "369": [
+    "Создать аккаунт учителя",
+    "Create a teacher account"
+  ],
+  "370": [
+    "При регистрации выберите роль «Учитель» и введите код. Работы учеников доступны всем аккаунтам учителя.",
+    "Select Teacher when registering and enter the code. All teacher accounts share access to student submissions."
+  ],
+  "371": [
+    "Аккаунт учителя",
+    "Teacher account"
+  ],
+  "372": [
+    "Введите код, чтобы включить возможности учителя.",
+    "Enter the code to enable teacher features."
+  ],
+  "373": [
+    "Перейти в кабинет учителя",
+    "Go to teacher dashboard"
+  ],
+  "374": [
+    "Специальный код",
+    "Access code"
+  ],
+  "375": [
+    "Проверка…",
+    "Checking…"
+  ],
+  "376": [
+    "Присоединиться как учитель",
+    "Join as a teacher"
+  ],
+  "377": [
+    "Эта работа вам не принадлежит.",
+    "This work does not belong to you."
+  ],
+  "378": [
+    "Предыдущая версия не найдена.",
+    "Previous version not found."
+  ],
+  "379": [
+    "Для переработки выберите свою проверенную работу.",
+    "Choose your own reviewed work to revise."
+  ],
+  "380": [
+    "Нужны минимум 250 слов, полный план, четыре отметки самопроверки и три цели.",
+    "You need at least 250 words, a complete plan, four self-checks and three goals."
+  ],
+  "381": [
+    "Тест начат. Время сохранено.",
+    "Test started. Start time saved."
+  ],
+  "382": [
+    "План, текст и отметки проверки сохранены.",
+    "Plan, text and self-checks saved."
+  ],
+  "383": [
+    "Задание не добавлено в базу.",
+    "This assignment is not in the database."
+  ],
+  "384": [
+    "Войдите, чтобы начать работу",
+    "Sign in to start writing"
+  ],
+  "385": [
+    "Вернуться к заданиям",
+    "Back to activities"
+  ],
+  "386": [
+    "Заполнены анализ вопроса и все 6 разделов плана",
+    "Question analysis and all six plan sections completed"
+  ],
+  "387": [
+    "Самопроверка TR / CC / LR / GRA завершена",
+    "TR / CC / LR / GRA self-check completed"
+  ],
+  "388": [
+    "Записаны 3 цели развития",
+    "Three learning goals entered"
+  ],
+  "389": [
+    "К уроку",
+    "To lesson"
+  ],
+  "390": [
+    "К практике",
+    "To practice"
+  ],
+  "391": [
+    "вернуться",
+    "back"
+  ],
+  "392": [
+    "Финальный тест",
+    "Final test"
+  ],
+  "393": [
+    "Начальная диагностика",
+    "Initial diagnostic"
+  ],
+  "394": [
+    "Письменная практика",
+    "Writing practice"
+  ],
+  "395": [
+    "· переработка",
+    "· revision"
+  ],
+  "396": [
+    "Эта работа связана с уроком.",
+    "This assignment is linked to a lesson."
+  ],
+  "397": [
+    "После отправки работа появится у всех учителей. Когда учитель проверит её, последнее условие урока будет выполнено.",
+    "After submission, all teachers can review this work. Teacher review fulfils the final lesson requirement."
+  ],
+  "398": [
+    "Отзыв к предыдущей версии",
+    "Previous version feedback"
+  ],
+  "399": [
+    "Посмотреть предыдущую версию",
+    "View previous version"
+  ],
+  "400": [
+    "После старта таймер не останавливается и сохраняется при обновлении. По истечении времени редактирование закрывается; сохранённый текст можно отправить.",
+    "Once started, the timer keeps running and persists on refresh. When time expires, editing locks; you can submit the saved text."
+  ],
+  "401": [
+    "Начать 40-минутный тест",
+    "Start the 40-minute test"
+  ],
+  "402": [
+    "Анализ и план",
+    "Analysis and plan"
+  ],
+  "403": [
+    "Написание эссе",
+    "Write your essay"
+  ],
+  "404": [
+    "Проверка и цели",
+    "Checks and goals"
+  ],
+  "405": [
+    "Эссе ·",
+    "Essay ·"
+  ],
+  "406": [
+    "/ 250 слов",
+    "/ 250 words"
+  ],
+  "407": [
+    "Я ответил на все части вопроса и объяснил аргументы",
+    "I answered all parts of the question and explained my arguments"
+  ],
+  "408": [
+    "Я проверил абзацы и связь мыслей",
+    "I checked paragraphs and connections between ideas"
+  ],
+  "409": [
+    "Я проверил значения, сочетания и написание слов",
+    "I checked word meanings, collocations and spelling"
+  ],
+  "410": [
+    "Я проверил времена, артикли, согласование и пунктуацию",
+    "I checked tenses, articles, agreement and punctuation"
+  ],
+  "411": [
+    "-я цель развития",
+    " — learning goal"
+  ],
+  "412": [
+    "Замечания к тексту",
+    "Text checks"
+  ],
+  "413": [
+    "слов ·",
+    "words ·"
+  ],
+  "414": [
+    "абзацев ·",
+    "paragraphs ·"
+  ],
+  "415": [
+    "предложений",
+    "sentences"
+  ],
+  "416": [
+    "Содержание аргументов и IELTS-критерии оценивает учитель. Эти замечания не являются оценкой.",
+    "Your teacher assesses argument quality and IELTS criteria. These checks are not a score."
+  ],
+  "417": [
+    "Условия отправки учителю",
+    "Submission requirements"
+  ],
+  "418": [
+    "Время истекло. Отправьте ранее сохранённую работу. Текст и план будут взяты из последней сохранённой версии. Завершите самопроверку и отправьте работу.",
+    "Time is up. Submit your previously saved work. Text and plan come from the last saved version. Complete the self-check and submit."
+  ],
+  "419": [
+    "Текст, не сохранённый до окончания времени",
+    "Text not saved before time expired"
+  ],
+  "420": [
+    "Этот текст не входит в результат теста. Вы можете скопировать его для следующей практики.",
+    "This text is not included in the test result. You can copy it for future practice."
+  ],
+  "421": [
+    "Несохранённый текст",
+    "Unsaved text"
+  ],
+  "422": [
+    "Посмотреть работу и отзыв",
+    "View work and feedback"
+  ],
+  "423": [
+    "Сохранить всё",
+    "Save everything"
+  ],
+  "424": [
+    "Отправить учителю",
+    "Submit to teacher"
+  ],
+  "425": [
+    "Есть несохранённые изменения",
+    "Unsaved changes"
+  ],
+  "426": [
+    "Сохранено в базе",
+    "Saved to database"
+  ],
+  "427": [
+    "Сопоставьте критерии",
+    "Match the criteria"
+  ],
+  "428": [
+    "Соберите абзац по порядку",
+    "Put the paragraph in order"
+  ],
+  "429": [
+    "Мысль → объяснение → пример → вывод.",
+    "Idea → explanation → example → conclusion."
+  ],
+  "430": [
+    "Выберите связку",
+    "Choose a linking expression"
+  ],
+  "431": [
+    "Причина, следствие и решение",
+    "Cause, effect and solution"
+  ],
+  "432": [
+    "Исправьте предложение",
+    "Correct the sentence"
+  ],
+  "433": [
+    "IELTS Writing Task 2: формат и оценивание — практика",
+    "IELTS Writing Task 2: format and assessment — practice"
+  ],
+  "434": [
+    "Какой подход в этом уроке правильный?",
+    "Which approach is correct for this lesson?"
+  ],
+  "435": [
+    "Минимум 250 слов и около 40 минут",
+    "At least 250 words and about 40 minutes"
+  ],
+  "436": [
+    "Только увеличивать количество сложных слов",
+    "Only increase the number of complex words"
+  ],
+  "437": [
+    "Игнорировать вопрос и писать заученный текст",
+    "Ignore the question and write a memorised essay"
+  ],
+  "438": [
+    "В Task 2 нужно написать аргументированное эссе по заданной проблеме. Выделите около 40 минут и напишите минимум 250 слов полными предложениями и абзацами. Подгонка заученного текста под тему мешает ответить на вопрос.",
+    "In Task 2, write a reasoned essay about the given issue. Allow about 40 minutes and write at least 250 words in full sentences and paragraphs. Forcing a memorised essay onto the topic prevents a focused answer."
+  ],
+  "439": [
+    "Что делаем после написания?",
+    "What do we do after writing?"
+  ],
+  "440": [
+    "Проверяем только количество слов",
+    "Check only the word count"
+  ],
+  "441": [
+    "Есть ли 250 слов? Ясна ли позиция? Запишите сильную сторону по одному критерию и следующую цель по другому. Это начальная диагностика, а не официальная оценка IELTS.",
+    "Are there 250 words? Is your position clear? Identify a strength in one criterion and a next goal in another. This is an initial diagnostic, not an official IELTS score."
+  ],
+  "442": [
+    "Отправляем без проверки",
+    "Submit without checking"
+  ],
+  "443": [
+    "Вопросы самопроверки помогают применить изученный навык к своему тексту.",
+    "Self-check questions help you apply the lesson's skill to your own writing."
+  ],
+  "444": [
+    "Общие навыки письма: план и структура — практика",
+    "General writing skills: planning and structure — practice"
+  ],
+  "445": [
+    "Одна главная мысль, объяснение и пример на абзац",
+    "One main idea, explanation and example per paragraph"
+  ],
+  "446": [
+    "Сначала выделите тему, ограничения и требуемое действие. Затем собирайте идеи. Вступление, два основных абзаца и заключение — удобный начальный план, но не обязательное правило о количестве абзацев.",
+    "First identify the topic, scope and required action. Then brainstorm. An introduction, two body paragraphs and a conclusion are a useful starting structure, not a mandatory paragraph count."
+  ],
+  "447": [
+    "Подтверждает ли заключение ответ? Относится ли каждая мысль плана к вопросу? Уберите пункты, отклоняющиеся от темы.",
+    "Does the conclusion reinforce your answer? Is every planned idea relevant? Remove points that drift to another topic."
+  ],
+  "448": [
+    "Discussion: различаем две позиции — практика",
+    "Discussion: distinguishing two views — practice"
+  ],
+  "449": [
+    "Показать обе позиции и собственное мнение",
+    "Present both views and your own position"
+  ],
+  "450": [
+    "Discussion требует объяснить две точки зрения. Если спрашивают мнение, выразите его ясно. Даже поддерживая одну сторону, справедливо объясните, почему существует другая.",
+    "A discussion task asks you to explain two views. If your opinion is requested, state it clearly. Even when supporting one side, explain the other fairly."
+  ],
+  "451": [
+    "Не смешаны ли две позиции? Ясно ли личное мнение? Сохранился ли фокус на students и learning?",
+    "Are the two views distinct? Is your opinion clear? Have you stayed within the scope of students and learning?"
+  ],
+  "452": [
+    "Discussion: сбор идей и планирование — практика",
+    "Discussion: brainstorming and planning — practice"
+  ],
+  "453": [
+    "Запланировать причину и пример для каждой позиции",
+    "Plan a reason and example for each view"
+  ],
+  "454": [
+    "Хороший план не просто перечисляет стороны: он объясняет, как возникает польза каждого подхода. Основные абзацы должны обсуждать две стороны одного вопроса.",
+    "A good plan goes beyond listing both sides: it explains how each approach produces benefits. Body paragraphs should discuss two sides of the same question."
+  ],
+  "455": [
+    "Есть ли причина и пример в каждом абзаце? Объясняет ли пример мысль, а не повторяет её? Достаточно ли раскрыты обе стороны?",
+    "Does each paragraph contain a reason and an example? Does the example explain rather than repeat? Are both sides developed sufficiently?"
+  ],
+  "456": [
+    "Discussion: вступление и позиция — практика",
+    "Discussion: introduction and position — practice"
+  ],
+  "457": [
+    "Представить тему и выразить личную позицию",
+    "Introduce the topic and state your position"
+  ],
+  "458": [
+    "Вступление переформулирует тему и показывает направление ответа. Не нужно заменять каждое слово синонимом. Сохранение смысла важнее сложной лексики.",
+    "The introduction paraphrases the topic and signals your answer. You need not replace every word with a synonym. Preserving meaning matters more than finding complex words."
+  ],
+  "459": [
+    "Не изменён ли исходный смысл при перефразировании? Не свелась ли позиция к расплывчатому «есть две стороны»?",
+    "Does the paraphrase preserve the original meaning? Is your position more specific than a vague “there are two sides”?"
+  ],
+  "460": [
+    "Discussion: развитие первой позиции — практика",
+    "Discussion: developing the first view — practice"
+  ],
+  "461": [
+    "Объяснить причину позиции и привести пример",
+    "Explain the reason behind the view and give an example"
+  ],
+  "462": [
+    "Первое предложение абзаца представляет рассматриваемую позицию. Объяснять её основания не значит соглашаться с ней. Чётко отделяйте свою позицию от чужой.",
+    "A topic sentence introduces the view being discussed. Explaining its reasoning does not mean agreeing with it. Distinguish your own position from another view."
+  ],
+  "463": [
+    "Служит ли каждое предложение одной мысли? Не представили ли вы чужую позицию как собственную?",
+    "Does every sentence support one main idea? Have you accidentally presented another view as your own?"
+  ],
+  "464": [
+    "Discussion: вторая позиция и сравнение — практика",
+    "Discussion: the second view and comparison — practice"
+  ],
+  "465": [
+    "Развить альтернативную позицию отдельным аргументом",
+    "Develop the alternative view with its own argument"
+  ],
+  "466": [
+    "Второй абзац не должен повторять первый. Покажите логику альтернативной позиции. Сравнивайте по конкретному критерию: понимание, время или обратная связь.",
+    "The second paragraph should not repeat the first. Show the alternative view's logic. Compare using a specific measure, such as understanding, time or feedback."
+  ],
+  "467": [
+    "Верно ли связка передаёт отношение? Есть ли отдельный аргумент второй стороны? Помогает ли сравнение ответить на вопрос?",
+    "Does the linker express the correct relationship? Does the second view have its own argument? Does comparison help answer the question?"
+  ],
+  "468": [
+    "Discussion: полное эссе — практика",
+    "Discussion: writing a complete essay — practice"
+  ],
+  "469": [
+    "Согласовать позиции во вступлении и заключении",
+    "Keep the introduction and conclusion consistent"
+  ],
+  "470": [
+    "При объединении частей сохраняйте единую позицию. Ответы во вступлении и заключении должны совпадать. Не начинайте новый аргумент в заключении.",
+    "Maintain a consistent position when combining sections. The introduction and conclusion should agree. Do not start a new argument in the conclusion."
+  ],
+  "471": [
+    "Обсуждены ли обе позиции? Обосновано ли ваше мнение? Опирается ли заключение только на уже объяснённые идеи?",
+    "Have you discussed both views and supported your opinion? Does the conclusion use only ideas developed in the body?"
+  ],
+  "472": [
+    "Discussion: исправление и переработка — практика",
+    "Discussion: correcting and revising — practice"
+  ],
+  "473": [
+    "Сначала исправить содержание и логику",
+    "Revise content and logic first"
+  ],
+  "474": [
+    "Переработка не ограничивается орфографией. Сначала дополните ответ на вопрос, затем исправьте логику абзацев и только после этого лексику и грамматику.",
+    "Revision is more than spelling. First address gaps in your answer, then paragraph logic, and finally vocabulary and grammar."
+  ],
+  "475": [
+    "Стала ли новая версия точнее? Учтены ли замечания учителя? Не изменилась ли случайно основная позиция?",
+    "Is the new version more precise? Have you addressed teacher feedback? Has your main position changed unintentionally?"
+  ],
+  "476": [
+    "Opinion: степень согласия — практика",
+    "Opinion: deciding how far you agree — practice"
+  ],
+  "477": [
+    "Учитывать all, only и should в утверждении",
+    "Pay attention to all, only and should in the statement"
+  ],
+  "478": [
+    "В agree/disagree объясните степень согласия. Можно полностью согласиться, не согласиться или согласиться частично. Любой выбор нужно последовательно обосновать.",
+    "In agree/disagree tasks, explain how far you agree. You may fully agree, disagree or partly agree. Whichever you choose, support it consistently."
+  ],
+  "479": [
+    "Относится ли ответ к точному утверждению? Можете ли вы выразить степень согласия одним предложением?",
+    "Does your answer address the exact claim? Can you state your degree of agreement in one sentence?"
+  ],
+  "480": [
+    "Opinion: формулировка тезиса — практика",
+    "Opinion: writing a thesis — practice"
+  ],
+  "481": [
+    "Выразить ясную позицию и основную причину",
+    "State a clear position and its main reason"
+  ],
+  "482": [
+    "Тезис — главный ответ эссе, а не просто название темы. «There are advantages and disadvantages» не показывает степень согласия.",
+    "A thesis is your main answer, not just a topic statement. “There are advantages and disadvantages” does not explain how far you agree."
+  ],
+  "483": [
+    "Выражает ли главный глагол тезиса позицию? Можно ли обосновать её следующими абзацами?",
+    "Does the thesis verb express your position? Can the body paragraphs support it?"
+  ],
+  "484": [
+    "Opinion: развитие аргумента — практика",
+    "Opinion: developing an argument — practice"
+  ],
+  "485": [
+    "Объяснить механизм влияния причины",
+    "Explain how the cause produces its effect"
+  ],
+  "486": [
+    "Убедительный аргумент объясняет причинно-следственную связь. После «Online learning is convenient» уточните, кому, в каких условиях и как оно помогает.",
+    "A convincing argument explains cause and effect. After “Online learning is convenient”, explain who benefits, in what circumstances and how."
+  ],
+  "487": [
+    "Не остался ли аргумент просто утверждением? Ясна ли связь примера с выводом?",
+    "Is the argument more than a claim? Is the connection between the example and conclusion clear?"
+  ],
+  "488": [
+    "Opinion: ответ на контраргумент — практика",
+    "Opinion: responding to a counterargument — practice"
+  ],
+  "489": [
+    "Признать контраргумент и обосновать основную позицию",
+    "Acknowledge a counterargument and justify your main position"
+  ],
+  "490": [
+    "Признание контраргумента не означает отказ от позиции. Покажите, что в нём разумно, и объясните, почему ответ остаётся прежним. Этот приём не обязателен в каждом эссе.",
+    "Acknowledging a counterargument does not mean abandoning your position. Explain its valid part and why your answer remains unchanged. This technique is not required in every essay."
+  ],
+  "491": [
+    "Ответили ли вы на контраргумент? Сохранилась ли позиция? Полны ли обе части предложения с Although?",
+    "Have you genuinely answered the counterargument and maintained your position? Are both clauses of Although complete?"
+  ],
+  "492": [
+    "Opinion: частичное согласие — практика",
+    "Opinion: partial agreement — practice"
+  ],
+  "493": [
+    "Уточнить условия согласия и несогласия",
+    "Specify when you agree and when you disagree"
+  ],
+  "494": [
+    "Частичное согласие — не случайное переключение сторон. Укажите условия согласия и ограничения, с которыми не согласны. Сохраняйте эту границу во всём эссе.",
+    "Partial agreement is not random switching between sides. Define the circumstances in which you agree and the restrictions you reject. Keep that boundary throughout."
+  ],
+  "495": [
+    "Ясны ли условия согласия? Подчиняются ли оба абзаца одной условной позиции?",
+    "Are the conditions of agreement clear? Do both paragraphs support one conditional position?"
+  ],
+  "496": [
+    "Opinion: полный ответ — практика",
+    "Opinion: building a complete response — practice"
+  ],
+  "497": [
+    "Сохранить одну позицию во всём ответе",
+    "Maintain one position throughout the response"
+  ],
+  "498": [
+    "В opinion эссе сохраняйте позицию от начала до конца. Основные абзацы объясняют причины поддержки или опровержения утверждения.",
+    "Maintain your position throughout an opinion essay. Body paragraphs explain reasons for supporting or rejecting the statement."
+  ],
+  "499": [
+    "Действительно ли причины различны? Сохранилась ли степень согласия в заключении? Отвечает ли основная часть прямо на вопрос?",
+    "Are the two reasons distinct? Is the same degree of agreement retained in the conclusion? Does the body directly address the question?"
+  ],
+  "500": [
+    "Opinion: точность и переработка — практика",
+    "Opinion: precision and revision — practice"
+  ],
+  "501": [
+    "Ограничить обобщения в соответствии с доказательствами",
+    "Qualify generalisations to match the evidence"
+  ],
+  "502": [
+    "Проверяйте абсолютные утверждения: always, everyone, never часто чрезмерно обобщают. При недостатке доказательств уместны can, may, many.",
+    "Look for absolute claims: always, everyone and never often overgeneralise. Where support is limited, use appropriate qualifiers such as can, may or many."
+  ],
+  "503": [
+    "Верно ли исправленное предложение? Не исчезла ли позиция? Остались ли необоснованные гарантии результата?",
+    "Is the revised sentence grammatical? Is your position still clear? Are there any unsupported guarantees of outcomes?"
+  ],
+  "504": [
+    "Advantages / Disadvantages: типы вопросов — практика",
+    "Advantages / Disadvantages: question types — practice"
+  ],
+  "505": [
+    "При outweigh сравнить стороны и сделать вывод",
+    "For outweigh, compare both sides and reach a judgement"
+  ],
+  "506": [
+    "Описание плюсов и минусов отличается от оценки того, что перевешивает. Вопрос outweigh требует сравнительного вывода.",
+    "Describing advantages and disadvantages differs from judging which outweighs the other. Outweigh requires a comparative conclusion."
+  ],
+  "507": [
+    "Спрашивает ли вопрос, что перевешивает? Есть ли нужная оценка, а не просто список?",
+    "Does the question ask which outweighs the other? Have you evaluated where required, rather than merely listed points?"
+  ],
+  "508": [
+    "Advantages: конкретное объяснение пользы — практика",
+    "Advantages: explaining benefits precisely — practice"
+  ],
+  "509": [
+    "Раскрыть, кому и как помогает преимущество",
+    "Explain who benefits and how"
+  ],
+  "510": [
+    "Преимущество должно показывать возможность для конкретного человека или группы. Раскройте «Cities are better» через конкретный результат.",
+    "An advantage should show what opportunity a person or group gains. Develop a general claim such as “Cities are better” through a specific outcome."
+  ],
+  "511": [
+    "Ясно ли, кто получает пользу? Объяснён ли путь к результату?",
+    "Is the beneficiary clear? Have you explained how the outcome is achieved?"
+  ],
+  "512": [
+    "Disadvantages: издержки и последствия — практика",
+    "Disadvantages: costs and consequences — practice"
+  ],
+  "513": [
+    "Развить причину и следствие недостатка",
+    "Develop a disadvantage's cause and consequence"
+  ],
+  "514": [
+    "Не просто назовите недостаток: объясните его происхождение и важность. Жильё, преступность, воздух и безработица в одном абзаце делают аргумент поверхностным.",
+    "Do not just name a drawback: explain how it arises and why it matters. Cramming housing, crime, air quality and unemployment into one paragraph makes your argument superficial."
+  ],
+  "515": [
+    "Связан ли недостаток с темой? Не представлен ли возможный результат как неизбежный?",
+    "Is the disadvantage relevant? Have you wrongly presented a possible consequence as inevitable?"
+  ],
+  "516": [
+    "Outweigh: сравнение двух сторон — практика",
+    "Outweigh: weighing both sides — practice"
+  ],
+  "517": [
+    "Сравнить длительность и значимость влияния",
+    "Compare duration and significance of effects"
+  ],
+  "518": [
+    "Нельзя решать только по числу аргументов. Сравните длительность, масштаб влияния и возможность его уменьшить. Две небольшие пользы не обязательно важнее одного серьёзного вреда.",
+    "Do not judge by counting arguments alone. Compare duration, scale and whether harm can be reduced. Two minor benefits do not necessarily outweigh one major harm."
+  ],
+  "519": [
+    "Ясно ли основание вывода? Учтена ли другая сторона? Не свелось ли сравнение к словам «more advantages»?",
+    "Is your judgement justified? Have you considered the other side? Does your comparison go beyond saying “more advantages”?"
+  ],
+  "520": [
+    "Advantages / Disadvantages: полное эссе — практика",
+    "Advantages / Disadvantages: complete essay — practice"
+  ],
+  "521": [
+    "Раскрыть обе стороны и обосновать перевес",
+    "Develop both sides and justify which outweighs the other"
+  ],
+  "522": [
+    "В полном ответе плюсы и минусы развиваются отдельно. При outweigh ваш выбор должен согласовываться во вступлении, аргументах и заключении.",
+    "Develop advantages and disadvantages separately. For outweigh, keep your judgement consistent across the introduction, arguments and conclusion."
+  ],
+  "523": [
+    "Достаточно ли объяснены обе стороны? Не перепутаны ли интересы работодателя и работника?",
+    "Are both sides explained sufficiently? Have you distinguished employer and employee interests?"
+  ],
+  "524": [
+    "Advantages / Disadvantages: переоценка — практика",
+    "Advantages / Disadvantages: reassessment — practice"
+  ],
+  "525": [
+    "Убрать повторения и усилить обоснование оценки",
+    "Reduce repetition and strengthen your judgement"
+  ],
+  "526": [
+    "При пересмотре проверьте, оцениваются ли плюсы и минусы по одним критериям. Удалите повторы ради объёма и развейте необъяснённые мысли.",
+    "Check that benefits and drawbacks are judged on comparable criteria. Remove padding and develop unexplained points."
+  ],
+  "527": [
+    "Обоснован ли выбор? Не преувеличена ли одинаковая польза для всех?",
+    "Is your choice justified? Have you exaggerated benefits as applying equally to everyone?"
+  ],
+  "528": [
+    "Problem / Solution: проблема, причина, решение — практика",
+    "Problem / Solution: problem, cause, solution — practice"
+  ],
+  "529": [
+    "Различать причину, проблему и решение",
+    "Distinguish causes, problems and solutions"
+  ],
+  "530": [
+    "Проблема — нежелательная ситуация; причина — фактор, который её вызывает; решение — действие, влияющее на неё. Различайте causes and solutions и problems and solutions.",
+    "A problem is an undesirable situation; a cause is a factor producing it; a solution is an action addressing it. Distinguish causes and solutions from problems and solutions."
+  ],
+  "531": [
+    "Не перепутаны ли причина и следствие? Выполняет ли план точную инструкцию?",
+    "Have you distinguished cause and effect? Does the plan follow the exact instruction?"
+  ],
+  "532": [
+    "Problem / Solution: анализ причин — практика",
+    "Problem / Solution: analysing causes — practice"
+  ],
+  "533": [
+    "Показать механизм от причины к проблеме",
+    "Show the mechanism linking cause to problem"
+  ],
+  "534": [
+    "Анализ причины должен идти глубже «слишком много людей». Объясните, что влияет на выбор людей и как это усиливает проблему.",
+    "Go beyond saying “there are many people”. Explain what influences people's choices and how that worsens the problem."
+  ],
+  "535": [
+    "Действительно ли фактор является причиной? Различны ли две причины? Показан ли механизм последствий?",
+    "Is the factor genuinely a cause? Are the two causes distinct? Have you shown the mechanism leading to the effect?"
+  ],
+  "536": [
+    "Problem / Solution: выполнимое решение — практика",
+    "Problem / Solution: a practical solution — practice"
+  ],
+  "537": [
+    "Указать исполнителя, меру и результат",
+    "Identify who acts, the action and the result"
+  ],
+  "538": [
+    "В хорошем решении ясно, кто действует, что делает и как это поможет. «Government should solve it» — не конкретное предложение.",
+    "A good solution identifies who acts, what they do and how it helps. “Government should solve it” is not a specific proposal."
+  ],
+  "539": [
+    "Влияет ли решение именно на эту причину? Ясно ли, кто отвечает? Не осталось ли предложение лозунгом?",
+    "Does the solution address this cause? Is responsibility clear? Is the proposal more than a slogan?"
+  ],
+  "540": [
+    "Problem / Solution: связный план — практика",
+    "Problem / Solution: a connected plan — practice"
+  ],
+  "541": [
+    "Планировать решение для каждой причины",
+    "Plan a matching solution for each cause"
+  ],
+  "542": [
+    "Причины и решения не должны быть разрозненными списками. Читатель должен понимать, какую проблему решает каждая мера. Возможны два основных абзаца или организация парами причина–решение.",
+    "Causes and solutions should not be disconnected lists. Make clear which problem each proposal addresses. Organise in two body paragraphs or in cause–solution pairs."
+  ],
+  "543": [
+    "Нет ли несоответствующих решений? Выполнены ли оба требования? Можете ли вы объяснить логику каждой пары?",
+    "Are all solutions relevant? Does the plan meet both requirements? Can you explain the logic of each pair?"
+  ],
+  "544": [
+    "Problem / Solution: полное эссе — практика",
+    "Problem / Solution: complete essay — practice"
+  ],
+  "545": [
+    "Развить причины и соответствующие меры",
+    "Develop causes and matching measures"
+  ],
+  "546": [
+    "Сохраняйте ясную связь причин и решений. Оставьте место для объяснения мер: не тратьте весь текст на причины.",
+    "Keep the cause–solution connection clear. Leave space to explain the proposed measures instead of using the whole essay for causes."
+  ],
+  "547": [
+    "Не свёлся ли ответ к вреду недосыпания? Соответствуют ли меры причинам? Развиты ли обе части?",
+    "Does the response go beyond describing the harm of poor sleep? Do measures match causes? Are both sections developed?"
+  ],
+  "548": [
+    "Problem / Solution: исправление логики — практика",
+    "Problem / Solution: improving logic — practice"
+  ],
+  "549": [
+    "Переписать несоответствующее решение с учётом причины",
+    "Revise a mismatched solution to address its cause"
+  ],
+  "550": [
+    "При переработке сначала проверьте связь причины и решения. Грамматически верное предложение может содержать необоснованный вывод.",
+    "First check the cause–solution connection when revising. A grammatical sentence may still contain an unsupported conclusion."
+  ],
+  "551": [
+    "Уменьшает ли мера проблему? Учтены ли ограничения? Если связь предположительна, выражена ли она условно?",
+    "Will the proposal reduce the problem? Are limitations considered? If the causal link is uncertain, is it qualified?"
+  ],
+  "552": [
+    "Two-Part Question: распознаём две задачи — практика",
+    "Two-Part Question: identifying two tasks — practice"
+  ],
+  "553": [
+    "Ответить на каждый из двух вопросов",
+    "Answer each of the two questions"
+  ],
+  "554": [
+    "Задание содержит два отдельных вопроса по одной теме. Хороший ответ на первый не компенсирует пропуск второго. Отдельно выделите глагол каждого вопроса.",
+    "The task asks two separate questions on one topic. A strong first answer does not compensate for omitting the second. Identify each question's command verb."
+  ],
+  "555": [
+    "Выполняют ли ответы две разные задачи? Не заменили ли вы способ причиной или наоборот?",
+    "Do the answers fulfil two distinct tasks? Have you confused a method with a cause?"
+  ],
+  "556": [
+    "Two-Part Question: сбалансированный план — практика",
+    "Two-Part Question: balanced planning — practice"
+  ],
+  "557": [
+    "Планировать объяснение и пример для каждого вопроса",
+    "Plan an explanation and example for each question"
+  ],
+  "558": [
+    "Одинаковый объём не обязателен, но оба ответа нужно развить. Не оставляйте на второй вопрос одно предложение после длинного первого ответа.",
+    "Equal word counts are not required, but both answers need development. Do not leave the second question with one sentence after a long first answer."
+  ],
+  "559": [
+    "Не ограничен ли второй ответ названием способа? Объяснена ли эффективность? Не повторён ли пример из первой части?",
+    "Does the second answer do more than name a method? Is its effectiveness explained? Does it avoid repeating the first example?"
+  ],
+  "560": [
+    "Two-Part Question: полное эссе — практика",
+    "Two-Part Question: complete essay — practice"
+  ],
+  "561": [
+    "Отдельно ответить на вопрос о причине и об оценке",
+    "Address the cause and evaluation questions separately"
+  ],
+  "562": [
+    "Напишите единое эссе, а не два несвязанных коротких текста. Общая тема и вступление связывают оба ответа.",
+    "Write one coherent essay, not two unrelated mini-texts. A shared topic and introduction connect both answers."
+  ],
+  "563": [
+    "Есть ли причина в первом ответе и оценка во втором? Объяснены ли надёжность и скорость новостей?",
+    "Does the first answer explain causes and the second evaluate? Have you explained the reliability and speed of news?"
+  ],
+  "564": [
+    "Two-Part Question: улучшение ответа — практика",
+    "Two-Part Question: improving the response — practice"
+  ],
+  "565": [
+    "Дополнить слабый ответ конкретным объяснением",
+    "Strengthen a weak answer with a specific explanation"
+  ],
+  "566": [
+    "При проверке соотнесите каждое предложение с первым или вторым вопросом. Нерелевантные предложения могут перегружать текст.",
+    "During review, connect each sentence to the first or second question. Sentences unrelated to either may add unnecessary material."
+  ],
+  "567": [
+    "Видны ли оба ответа? Основана ли оценка на конкретной причине? Не забыт ли один вопрос в заключении?",
+    "Are both answers clear? Is the evaluation justified? Does the conclusion cover both questions?"
+  ],
+  "568": [
+    "Смешанная практика: определение типа и самопроверка — практика",
+    "Mixed practice: identify the type and self-check — practice"
+  ],
+  "569": [
+    "Определить тип эссе по точной инструкции",
+    "Identify the essay type from the exact instruction"
+  ],
+  "570": [
+    "Сначала читайте точную инструкцию. Не выбирайте заученный шаблон автоматически при знакомой теме. Одна тема может требовать разных ответов.",
+    "Read the exact instruction first. Do not automatically apply a memorised essay pattern to a familiar topic. One topic can come with different requirements."
+  ],
+  "571": [
+    "Определён ли тип по инструкции? Выполнены ли все требования? Улучшает ли хотя бы одна правка содержание, а другая — язык?",
+    "Did you identify the type from the instruction and meet every requirement? Does at least one change improve content and another improve language?"
+  ],
+  "572": [
+    "Финальный тест: IELTS Writing Task 2 — практика",
+    "Final test: IELTS Writing Task 2 — practice"
+  ],
+  "573": [
+    "Планировать, писать и проверять в ограниченное время",
+    "Plan, write and check under timed conditions"
+  ],
+  "574": [
+    "Это учебный тест курса. Его цель — объединить планирование, написание и проверку. Результат не является официальным сертификатом IELTS или гарантированным band score.",
+    "This is the course's practice test. It combines planning, writing and checking. The result is not an official IELTS certificate or a guaranteed band score."
+  ],
+  "575": [
+    "Последовательна ли позиция? Объяснена ли каждая мысль? Логичны ли абзацы? Проверены ли слова и грамматика? Истечение таймера не сохраняет работу автоматически: нажмите сохранить или отправить.",
+    "Is your position consistent? Is each idea explained? Are paragraphs logical? Have you checked words and grammar? Timer expiry does not automatically save your work: click save or submit."
+  ],
+  "576": [
+    "Навыки письма",
+    "Writing skills"
+  ],
+  "577": [
+    "Образование",
+    "Education"
+  ],
+  "578": [
+    "Заполните обязательные поля.",
+    "Complete the required fields."
+  ],
+  "579": [
+    "Только для учителя",
+    "Teachers only"
+  ],
+  "580": [
+    "Только аккаунт учителя может добавлять уроки и задания.",
+    "Only teacher accounts can add lessons and activities."
+  ],
+  "581": [
+    "Назад",
+    "Go back"
+  ],
+  "582": [
+    "ДЛЯ УЧИТЕЛЯ",
+    "FOR TEACHERS"
+  ],
+  "583": [
+    "Новый урок",
+    "New lesson"
+  ],
+  "584": [
+    "Новое задание",
+    "New assignment"
+  ],
+  "585": [
+    "Сохранённый материал станет доступен всем ученикам.",
+    "Saved material will be available to all students."
+  ],
+  "586": [
+    "Название",
+    "Title"
+  ],
+  "587": [
+    "Категория темы",
+    "Topic category"
+  ],
+  "588": [
+    "Письменное задание",
+    "Writing assignment"
+  ],
+  "589": [
+    "Выберите задание для практики",
+    "Select a practice assignment"
+  ],
+  "590": [
+    "После добавления урока свяжите с ним интерактивное упражнение из двух вопросов на странице заданий.",
+    "After adding the lesson, link a two-question interactive activity to it on the Activities page."
+  ],
+  "591": [
+    "Краткое описание",
+    "Short description"
+  ],
+  "592": [
+    "Время изучения (минуты)",
+    "Study time (minutes)"
+  ],
+  "593": [
+    "-й раздел",
+    " — section"
+  ],
+  "594": [
+    "Название раздела",
+    "Section title"
+  ],
+  "595": [
+    "Текст урока",
+    "Lesson text"
+  ],
+  "596": [
+    "Пример (необязательно)",
+    "Example (optional)"
+  ],
+  "597": [
+    "Добавить раздел",
+    "Add section"
+  ],
+  "598": [
+    "Закрепляющее упражнение (необязательно)",
+    "Practice exercise (optional)"
+  ],
+  "599": [
+    "Тип эссе",
+    "Essay type"
+  ],
+  "600": [
+    "Текст задания",
+    "Prompt text"
+  ],
+  "601": [
+    "Формат: 40 минут, минимум 250 слов.",
+    "Writing format: 40 minutes, at least 250 words."
+  ],
+  "602": [
+    "Сохранение…",
+    "Saving…"
+  ],
+  "603": [
+    "Добавить урок",
+    "Add lesson"
+  ],
+  "604": [
+    "Добавить задание",
+    "Add assignment"
+  ],
+  "606": [
+    "Разберитесь",
+    "Understand"
+  ],
+  "607": [
+    "Как применить?",
+    "How to apply it"
+  ],
+  "608": [
+    "Следите за четырьмя направлениями: TR — ответ и аргументы; CC — порядок и связность; LR — точное словоупотребление; GRA — диапазон и правильность грамматики. Первую работу используйте для определения своего уровня.",
+    "Focus on four areas: TR — answering and supporting ideas; CC — order and coherence; LR — precise vocabulary; GRA — grammatical range and accuracy. Use your first essay to understand your starting level."
+  ],
+  "609": [
+    "Проверьте себя",
+    "Check yourself"
+  ],
+  "610": [
+    "За 40 минут напишите первое эссе по вопросу из примера. Затем выделите предложение с ответом и свой лучший аргумент.",
+    "Write your first essay on the example question in 40 minutes. Then mark the sentence answering the question and your strongest argument."
+  ],
+  "611": [
+    "Основы",
+    "Foundations"
+  ],
+  "614": [
+    "Попробуйте 5 минут планировать, 30 писать и 5 проверять. Подготовьте мысль, причину и пример для каждого абзаца. Не повторяйте похожие аргументы в разных абзацах.",
+    "Try 5 minutes planning, 30 writing and 5 checking. Prepare an idea, reason and example for each body paragraph. Avoid repeating similar arguments across paragraphs."
+  ],
+  "615": [
+    "Составьте план из четырёх абзацев о финансовой грамотности в школе. Добавьте объяснение и пример к каждому основному абзацу.",
+    "Plan four paragraphs on financial literacy in schools. Add an explanation and example to each body paragraph."
+  ],
+  "618": [
+    "Разделите вопрос на позицию A, позицию B и своё мнение. Запишите возможный довод сторонника каждой позиции. Не ограничивайтесь общими словами о теме.",
+    "Split the question into view A, view B and your position. Write a reason each supporter might give. Go beyond general remarks about the topic."
+  ],
+  "619": [
+    "Запишите по причине для A и B. Добавьте предложение о том, в каких условиях каждый подход эффективен.",
+    "Write one reason for each view, then one sentence explaining when each approach is effective."
+  ],
+  "622": [
+    "Для самостоятельного обучения рассмотрите темп и внимание; для группового — объяснение и взаимопомощь. Развейте причину и покажите конкретную учебную ситуацию. Запланируйте собственный выбор в заключении.",
+    "For solo study, consider pace and focus; for group study, explanation and mutual help. Develop a reason and illustrate a learning situation. Plan your own judgement for the conclusion."
+  ],
+  "623": [
+    "Спланируйте два абзаца об индивидуальном и групповом обучении: мысль → причина → пример. Объедините повторяющиеся идеи.",
+    "Plan two body paragraphs about solo and group study: idea → reason → example. Combine overlapping ideas."
+  ],
+  "626": [
+    "Одним предложением представьте спор, следующим выразите позицию. Не используйте «This essay will discuss» как единственный ответ: читатель должен знать ваше мнение.",
+    "Introduce the debate in one sentence and state your position in the next. “This essay will discuss” alone is not an answer; the reader needs your view."
+  ],
+  "627": [
+    "Перепишите это вступление другими словами. Затем напишите своё вступление к discussion о финансировании общественного транспорта и строительства дорог.",
+    "Paraphrase this introduction. Then write an introduction to a discussion about funding public transport and road building."
+  ],
+  "630": [
+    "После Some people argue that объясните причину. Добавьте конкретный пример и покажите, как он поддерживает позицию. Не выдумывайте исследования и проценты.",
+    "After Some people argue that, explain the reason. Add a specific example and show how it supports the view. Do not invent research or percentages."
+  ],
+  "631": [
+    "Напишите абзац на 70–90 слов в поддержку самостоятельного обучения. Отдельно отметьте основную мысль, объяснение и пример.",
+    "Write 70–90 words supporting independent study. Mark the topic sentence, explanation and example separately."
+  ],
+  "634": [
+    "Можно перейти с In contrast или However, но противопоставление должно быть реальным. В конце объясните условия эффективности каждого подхода.",
+    "Use In contrast or However only when there is genuine contrast. Explain when each approach works best."
+  ],
+  "635": [
+    "Напишите второй абзац о групповом обучении. Завершите сравнением двух подходов по одному критерию.",
+    "Write the second paragraph about group study. End by comparing both approaches on one measure."
+  ],
+  "638": [
+    "По предыдущему плану напишите минимум 250 слов. Посвятите каждой позиции отдельный абзац. Ясно выразите мнение во вступлении и заключении и обоснуйте его в основной части.",
+    "Use your plan to write at least 250 words. Give each view a body paragraph. State your opinion clearly in the introduction and conclusion and support it in the body."
+  ],
+  "639": [
+    "За 40 минут напишите эссе об индивидуальном и групповом обучении и отправьте учителю через соответствующее задание.",
+    "Write the solo/group study essay in 40 minutes and submit it through the linked practice assignment."
+  ],
+  "642": [
+    "Превратите отзыв в три действия: развить слабую причину, заменить неудачный пример, уточнить позицию. Сохраните первую версию и объясните правки.",
+    "Turn feedback into three actions: develop a weak reason, replace an unsuitable example and clarify your position. Keep the first version and explain your changes."
+  ],
+  "643": [
+    "Перепишите самый слабый абзац предыдущего эссе. Покажите три изменения в формате «до → после → почему».",
+    "Rewrite your weakest paragraph. Show three changes as “before → after → why”."
+  ],
+  "646": [
+    "Отметьте ограничивающие all, only, should. «Полезна ли технология?» и «Должны ли все уроки быть онлайн?» — разные вопросы.",
+    "Mark limiting words such as all, only and should. “Is technology useful?” and “Should all lessons be online?” are different questions."
+  ],
+  "647": [
+    "Найдите тему и ограничивающее слово. Сформулируйте три позиции и выберите ту, которую сможете обосновать.",
+    "Identify the topic and limiting word. Write three possible positions and choose one you can support."
+  ],
+  "650": [
+    "Добавьте к позиции одну-две причины. Не перегружайте тезис. Убедитесь, что развиваете эти причины в основной части.",
+    "Add one or two reasons to your position. Keep the thesis concise and ensure the body develops those reasons."
+  ],
+  "651": [
+    "Напишите тезисы полного и частичного согласия с запретом телефонов в школе. Объясните границы каждого.",
+    "Write full-agreement and partial-agreement theses about banning phones at school. Explain the limits of each."
+  ],
+  "654": [
+    "Используйте цепочку: мысль → механизм → ситуация → связь с позицией. Выберите две независимые причины: экономия времени и отсутствие поездок часто части одного аргумента.",
+    "Use idea → mechanism → situation → link to your position. Choose independent reasons: saving time and avoiding travel are often parts of the same argument."
+  ],
+  "655": [
+    "Напишите 80 слов за или против онлайн-обучения. Ответьте на «почему?» минимум дважды.",
+    "Write an 80-word paragraph for or against online learning. Answer “why?” at least twice."
+  ],
+  "658": [
+    "Признайте ограниченное преимущество через Although и продолжите основным доводом. Не изображайте контраргумент намеренно слабым или нелогичным.",
+    "Use Although to acknowledge a limited benefit, then state your main reason. Do not deliberately misrepresent the opposing view as weak or illogical."
+  ],
+  "659": [
+    "Признайте одно преимущество онлайн-уроков и в трёх предложениях возразите против перевода всех уроков онлайн.",
+    "Acknowledge one benefit of online lessons, then write three sentences opposing moving every lesson online."
+  ],
+  "662": [
+    "Можно поддержать онлайн для повторения теории и возражать для практических занятий. Объясните одно из этих условий в каждом основном абзаце.",
+    "You can support online learning for theory revision but oppose it for practical lessons. Explain one condition in each body paragraph."
+  ],
+  "663": [
+    "Сформулируйте условную позицию по «Teenagers should have part-time jobs»: обозначьте границы по учёбе, рабочим часам и безопасности.",
+    "Write a conditional position on “Teenagers should have part-time jobs”, setting limits for study time, working hours and safety."
+  ],
+  "666": [
+    "Включите в план тезис, два разных аргумента и итоговый ответ. Затем превратите его в связный текст. Не усложняйте предложения в ущерб смыслу.",
+    "Plan a thesis, two distinct arguments and a concluding answer, then turn them into a connected text. Do not sacrifice clarity for complex sentences."
+  ],
+  "667": [
+    "За 40 минут напишите минимум 250 слов. Один абзац может обсуждать повседневные финансовые решения, другой — долгосрочное планирование.",
+    "Write at least 250 words in 40 minutes. You could discuss daily financial decisions in one paragraph and long-term planning in the other."
+  ],
+  "670": [
+    "Сначала устраните противоречия позиции, затем проверьте логику аргумента и согласование подлежащего со сказуемым. Заменяйте ошибочное слово правильным сочетанием, а не просто синонимом.",
+    "First fix contradictions in your position, then argument logic and subject–verb agreement. Replace an incorrect word with an appropriate collocation, not merely a synonym."
+  ],
+  "671": [
+    "Найдите три обобщения в предыдущем эссе и уточните их по доказательствам. Полностью перепишите один абзац, выбранный учителем.",
+    "Find three generalisations in your previous essay and qualify them to match the support. Fully rewrite one paragraph recommended by your teacher."
+  ],
+  "674": [
+    "Отметьте инструкцию: What are the advantages and disadvantages? — раскройте обе стороны; Do the advantages outweigh the disadvantages? — сравните и вынесите суждение.",
+    "Mark the instruction: What are the advantages and disadvantages? — develop both sides; Do the advantages outweigh the disadvantages? — compare and judge."
+  ],
+  "675": [
+    "Запишите три обязательных действия в вопросе из примера. Выберите две пользы и две трудности переезда в город.",
+    "List the three required actions in the example question. Choose two benefits and two difficulties of moving to a city."
+  ],
+  "678": [
+    "Постройте цепочку возможность → доступ → результат. Например, разные учебные заведения расширяют выбор профессии. Не утверждайте, что это одинаково верно для всех городов.",
+    "Build opportunity → access → outcome. For example, varied institutions widen career choices. Avoid claiming this applies equally to every city."
+  ],
+  "679": [
+    "За 70–90 слов объясните образовательное преимущество переезда в город. Добавьте конкретный пример без выдуманной статистики.",
+    "Explain an educational benefit of moving to a city in 70–90 words. Add a specific example without invented statistics."
+  ],
+  "682": [
+    "Выберите одну трудность. Постройте цепочку: высокая аренда → давление на бюджет → сложный выбор между учёбой и работой.",
+    "Choose one difficulty. Build a chain: high rent → budget pressure → difficult choices between study and work."
+  ],
+  "683": [
+    "Напишите абзац об одном недостатке переезда в город. Покажите причину и два возможных последствия.",
+    "Write a paragraph about one drawback of moving to a city. Show the main cause and two possible consequences."
+  ],
+  "686": [
+    "Выберите общий критерий, например долгосрочные образовательные возможности и краткосрочные расходы. Предлагая снизить расходы, учитывайте реальные ограничения.",
+    "Choose a shared measure, such as long-term learning opportunities versus short-term costs. When proposing ways to reduce costs, acknowledge real limits."
+  ],
+  "687": [
+    "Напишите тезис о том, что перевешивает при переезде в город. Добавьте четыре предложения, сравнивающих обе стороны по одному критерию.",
+    "Write an outweigh thesis about moving to a city. Add four sentences comparing both sides on one measure."
+  ],
+  "690": [
+    "Выберите по сильному аргументу для каждой стороны. Подтвердите сравнение в конце основной части или заключении. Не вводите новую причину только в последнем предложении.",
+    "Choose one strong argument per side. Reinforce the comparison at the end of the body or conclusion. Do not introduce a new reason only in the final sentence."
+  ],
+  "691": [
+    "Составьте план о времени в дороге и общении коллег. Напишите эссе минимум на 250 слов.",
+    "Plan ideas about commuting time and communication between colleagues. Write at least 250 words."
+  ],
+  "694": [
+    "Дайте каждому абзацу краткий заголовок. Одинаковые заголовки могут указывать на повтор. Попробуйте обосновать сравнение через because.",
+    "Give each paragraph a short heading. Similar headings may reveal repetition. Try adding a because clause to justify your comparison."
+  ],
+  "695": [
+    "Перепишите суждение о перевесе в предыдущем эссе. Замените одно повторяющееся предложение конкретным объяснением.",
+    "Rewrite the outweigh judgement in your previous essay. Replace one repetitive sentence with a specific explanation."
+  ],
+  "698": [
+    "Отметьте требования: C — cause, P — problem, S — solution. Если спрашивают причины, не пишите только о вреде. Решение должно соответствовать выбранной причине или проблеме.",
+    "Mark requirements as C — cause, P — problem, S — solution. If causes are requested, do not discuss only harms. Match the solution to the selected cause or problem."
+  ],
+  "699": [
+    "Распределите по C/P/S: рост числа машин, опоздания, увеличение частоты автобусов. Укажите, какие две категории запрашивает вопрос.",
+    "Classify more cars, lateness and more frequent buses as C/P/S. Identify which two categories the question asks for."
+  ],
+  "702": [
+    "Автобусы редки → люди выбирают автомобили → дороги перегружаются. Каждый шаг объясняет следующий.",
+    "Infrequent public transport → people choose private cars → traffic increases. Each step explains the next."
+  ],
+  "703": [
+    "Запишите две возможные причины пробок. Развейте одну в абзац на 70 слов.",
+    "Write two possible causes of congestion. Develop one into a 70-word paragraph."
+  ],
+  "706": [
+    "Используйте исполнитель → мера → результат. Кратко укажите затраты или ограничения. Не обещайте, что одна мера решит все проблемы.",
+    "Use actor → action → result. Briefly mention costs or limits. Do not promise that one measure solves everything."
+  ],
+  "707": [
+    "Предложите решение для каждой причины из предыдущего урока. Укажите ответственного и условия реализации.",
+    "Propose a matching solution for each previous cause. Identify who is responsible and the conditions needed."
+  ],
+  "710": [
+    "Планируйте парами: редкие автобусы — повысить частоту; короткие поездки на машине — безопасные пешеходные пути. Удалите нерелевантные идеи, например tourism.",
+    "Plan pairs: infrequent buses — increase frequency; short car trips — safe walking routes. Remove unrelated ideas such as tourism."
+  ],
+  "711": [
+    "Спланируйте вступление, причины, решения и заключение о пробках. Соедините каждое решение с соответствующей причиной.",
+    "Plan the introduction, causes, solutions and conclusion for congestion. Connect each solution to its cause."
+  ],
+  "714": [
+    "Представьте проблему во вступлении. Развейте причины в первом основном абзаце, меры — во втором. В заключении обобщите причину и главное действие.",
+    "Introduce the problem, develop causes in the first body paragraph and matching measures in the second. Summarise the main cause and action in the conclusion."
+  ],
+  "715": [
+    "За 40 минут напишите эссе о недосыпании. Для двух причин предложите меры, доступные семье или школе.",
+    "Write an essay on insufficient sleep in 40 minutes. For two causes, propose measures families or schools can take."
+  ],
+  "718": [
+    "Отметьте причину одним цветом, решение другим. Пересмотрите меры без пары. Проверьте значения because, therefore и as a result.",
+    "Mark causes and solutions in different colours. Reconsider proposals without a match. Check because, therefore and as a result."
+  ],
+  "719": [
+    "Выберите слабое решение в эссе о сне. Перепишите его через вопросы: кто, что делает, как это помогает?",
+    "Choose a weak solution in your sleep essay. Rewrite it by answering who acts, what they do and how it helps."
+  ],
+  "722": [
+    "Why — причина; how — способ; positive or negative — оценка. Ответьте на каждый вопрос одним предложением, затем спланируйте абзацы.",
+    "Why asks for reasons, how for methods, positive or negative for evaluation. Draft a one-sentence answer to each, then plan paragraphs."
+  ],
+  "723": [
+    "Переформулируйте оба вопроса своими словами. Ответьте на первый причиной, на второй — способом.",
+    "Restate both questions in your own words. Give a cause for the first and a method for the second."
+  ],
+  "726": [
+    "В первом абзаце объясните одну-две причины изучения языков. Во втором обоснуйте эффективность метода. Во вступлении обозначьте оба ответа.",
+    "Explain one or two reasons for learning languages in the first paragraph. Justify your chosen method in the second. Signal both answers in the introduction."
+  ],
+  "727": [
+    "Составьте план для двух вопросов. Добавьте объяснение и пример к каждому ответу.",
+    "Plan both questions. Add an explanation and an example for each answer."
+  ],
+  "730": [
+    "Первое предложение каждого абзаца должно показывать, на какой вопрос он отвечает. Кратко обобщите оба ответа в заключении.",
+    "Each topic sentence should identify which question it answers. Briefly summarise both answers in the conclusion."
+  ],
+  "731": [
+    "Напишите минимум 250 слов о новостях в соцсетях. Ясно выразите оценку во второй части.",
+    "Write at least 250 words about social media news. Make your evaluative position clear in the second part."
+  ],
+  "734": [
+    "Сначала развейте неполный ответ. Объясните общие утверждения и сократите повторяющийся пример. Улучшайте точность, а не просто добавляйте сложные слова.",
+    "Develop the incomplete answer first. Explain general claims and shorten repeated examples. Improve precision rather than just adding complex words."
+  ],
+  "735": [
+    "Укажите, на какой вопрос отвечает каждый абзац предыдущего эссе. Переработайте слабую часть, добавив 2–3 поясняющих предложения.",
+    "Identify which question each paragraph answers. Revise the weak section with two or three explanatory sentences."
+  ],
+  "738": [
+    "Выберите три вопроса из практики. Определите требования и за 5 минут спланируйте каждый. Полностью ответьте на один. Затем сделайте по правке для TR, CC, LR и GRA.",
+    "Choose three practice questions, identify their tasks and plan each in five minutes. Write one full answer. Make one improvement for each of TR, CC, LR and GRA."
+  ],
+  "739": [
+    "Сравните три плана. Напишите эссе и проверьте его по четырём критериям. После отзыва перепишите один основной абзац.",
+    "Compare the three plans. Write an essay and self-check against all four criteria. After feedback, revise one body paragraph."
+  ],
+  "740": [
+    "Смешанная практика",
+    "Mixed practice"
+  ],
+  "743": [
+    "Поставьте таймер на 40 минут. Попробуйте 5 минут на план, 30 на написание и 5 на проверку. Напишите минимум 250 слов без копирования готового текста. Отправьте учителю.",
+    "Set a 40-minute timer: try 5 minutes planning, 30 writing and 5 checking. Write at least 250 original words, then submit to your teacher."
+  ],
+  "744": [
+    "Откройте финальное задание в практике. После отзыва запишите три цели и переработайте слабый абзац. Сравните с начальной диагностикой.",
+    "Complete the final practice assignment. After feedback, set three goals and revise a weak paragraph. Compare with your initial diagnostic."
+  ],
+  "746": [
+    "Начальная диагностика",
+    "Initial diagnostic"
+  ],
+  "747": [
+    "Самостоятельное или групповое обучение",
+    "Solo or group study"
+  ],
+  "748": [
+    "Онлайн-уроки",
+    "Online lessons"
+  ],
+  "749": [
+    "Финансовая грамотность",
+    "Financial literacy"
+  ],
+  "750": [
+    "Переезд в город",
+    "Moving to a city"
+  ],
+  "751": [
+    "Работа из дома",
+    "Working from home"
+  ],
+  "752": [
+    "Городские пробки",
+    "Urban congestion"
+  ],
+  "753": [
+    "Сон подростков",
+    "Teenagers' sleep"
+  ],
+  "754": [
+    "Способы изучения языков",
+    "Ways to learn languages"
+  ],
+  "755": [
+    "Новости в социальных сетях",
+    "Social media news"
+  ],
+  "756": [
+    "Бесплатный общественный транспорт",
+    "Free public transport"
+  ],
+  "757": [
+    "Финальный тест Writing Task 2",
+    "Final Writing Task 2 test"
+  ],
+  "758": [
+    "Технологии и образование",
+    "Technology and education"
+  ],
+  "759": [
+    "Экология",
+    "Environment"
+  ],
+  "760": [
+    "Кто защищает природу?",
+    "Who protects nature?"
+  ],
+  "761": [
+    "Общество",
+    "Society"
+  ],
+  "762": [
+    "Жизнь в большом городе",
+    "Life in a big city"
+  ],
+  "763": [
+    "Значение домашних заданий",
+    "The importance of homework"
+  ],
+  "764": [
+    "Технологии",
+    "Technology"
+  ],
+  "765": [
+    "Экранное время",
+    "Screen time"
+  ],
+  "766": [
+    "Изучение нового языка",
+    "Learning a new language"
+  ],
+  "767": [
+    "Неверный email или пароль.",
+    "Incorrect email or password."
+  ],
+  "768": [
+    "Этот email уже зарегистрирован. Войдите в аккаунт.",
+    "This email is already registered. Sign in to your account."
+  ],
+  "769": [
+    "Пароль должен содержать минимум 8 символов.",
+    "Your password must contain at least 8 characters."
+  ],
+  "770": [
+    "Введите корректный email.",
+    "Enter a valid email address."
+  ],
+  "771": [
+    "Вход через Google не завершён. Повторите попытку.",
+    "Google sign-in was not completed. Try again."
+  ],
+  "772": [
+    "Браузер заблокировал окно входа. Разрешите всплывающие окна.",
+    "Your browser blocked the sign-in popup. Allow popups to continue."
+  ],
+  "773": [
+    "Домен не добавлен в Firebase Authentication. Обратитесь к администратору.",
+    "This domain is not authorised in Firebase Authentication. Contact the administrator."
+  ],
+  "774": [
+    "Этот способ входа ещё не включён. Обратитесь к администратору.",
+    "This sign-in method is not enabled. Contact the administrator."
+  ],
+  "775": [
+    "Проверьте интернет и повторите попытку.",
+    "Check your internet connection and try again."
+  ],
+  "776": [
+    "Слишком много попыток. Повторите позже.",
+    "Too many attempts. Please try again later."
+  ],
+  "777": [
+    "Неверный пароль.",
+    "Incorrect password."
+  ],
+  "778": [
+    "Для безопасности войдите заново и повторите действие.",
+    "For security, sign in again and retry."
+  ],
+  "779": [
+    "Нет доступа к данным. Проверьте права аккаунта или правила Firebase.",
+    "Data access denied. Check account permissions or Firebase rules."
+  ],
+  "780": [
+    "Соединение потеряно. Сохраните свой текст и повторите попытку.",
+    "Connection lost. Keep a copy of your text and try again."
+  ],
+  "781": [
+    "Не удалось выполнить действие. Повторите попытку или свяжитесь с администратором.",
+    "The action could not be completed. Try again or contact the administrator."
+  ],
+  "782": [
+    "Анализ вопроса: тема, ограничения, задачи",
+    "Question analysis: topic, scope, tasks"
+  ],
+  "783": [
+    "Идеи: причина / следствие / решение / нерелевантные мысли",
+    "Ideas: cause / effect / solution / unrelated points"
+  ],
+  "784": [
+    "Вступление: перефразирование и позиция",
+    "Introduction: paraphrase and position"
+  ],
+  "785": [
+    "Абзац 1: мысль → объяснение → пример",
+    "Body paragraph 1: idea → explanation → example"
+  ],
+  "786": [
+    "Абзац 2: мысль → объяснение → пример",
+    "Body paragraph 2: idea → explanation → example"
+  ],
+  "787": [
+    "Заключение: основной ответ",
+    "Conclusion: main answer"
+  ],
+  "788": [
+    "Текст короче 250 слов",
+    "Text is under 250 words"
+  ],
+  "789": [
+    "Напишите минимум 250 слов для Task 2. Развивайте идеи через объяснения и примеры.",
+    "Write at least 250 words for Task 2. Develop ideas with explanations and examples."
+  ],
+  "790": [
+    "Проверьте деление на абзацы",
+    "Check paragraphing"
+  ],
+  "791": [
+    "Разделите вступление, основную часть и заключение пустыми строками. Само количество абзацев не определяет качество.",
+    "Separate the introduction, body and conclusion with blank lines. Paragraph count alone does not determine quality."
+  ],
+  "792": [
+    "Проверьте понятность предложений. При необходимости разделите одно на два.",
+    "Check that sentences are clear. Split them into two if needed."
+  ],
+  "793": [
+    "Проверьте последний знак препинания",
+    "Check the final punctuation"
+  ],
+  "794": [
+    "В конце текста нет завершающего знака препинания.",
+    "The text lacks final sentence punctuation."
+  ],
+  "795": [
+    "Местоимение i написано со строчной буквы",
+    "The pronoun i is lowercase"
+  ],
+  "796": [
+    "Пишите английское местоимение I с заглавной буквы.",
+    "Capitalise the English pronoun I."
+  ],
+  "797": [
+    "Слова повторяются подряд",
+    "Consecutive repeated words"
+  ],
+  "798": [
+    ". Проверьте, сделано ли это намеренно.",
+    ". Check whether this is intentional."
+  ],
+  "799": [
+    "Есть сокращённые формы",
+    "Contractions found"
+  ],
+  "800": [
+    "Для академического стиля рассмотрите полные формы: do not, cannot, it is.",
+    "For academic style, consider full forms such as do not, cannot and it is."
+  ],
+  "801": [
+    "Личный кабинет",
+    "Dashboard"
+  ],
+  "802": [
+    "ВАШ СЛЕДУЮЩИЙ УРОВЕНЬ — ЗДЕСЬ",
+    "YOUR NEXT LEVEL STARTS HERE"
+  ],
+  "803": [
+    "Пиши ясно.",
+    "Write clearly."
+  ],
+  "804": [
+    "К своей цели",
+    "Reach your goals"
+  ],
+  "805": [
+    "иди уверенно.",
+    "with confidence."
+  ],
+  "806": [
+    "Готовимся к IELTS Writing Task 2 вместе.",
+    "Prepare for IELTS Writing Task 2 with us."
+  ],
+  "807": [
+    "Учись шаг за шагом, пиши эссе и",
+    "Learn step by step, write essays and"
+  ],
+  "808": [
+    "получай личную обратную связь от учителя.",
+    "get personal feedback from your teacher."
+  ],
+  "809": [
+    "Посмотреть задания",
+    "View assignments"
+  ],
+  "810": [
+    "Начать писать",
+    "Start writing"
+  ],
+  "811": [
+    "Посмотреть уроки",
+    "View lessons"
+  ],
+  "812": [
+    "Объяснения на русском",
+    "Explanations in English"
+  ],
+  "813": [
+    "Обучение в своём темпе",
+    "Learn at your own pace"
+  ],
+  "814": [
+    "От первого эссе — к уверенному результату.",
+    "From your first essay to confident progress."
+  ],
+  "815": [
+    "Мы рядом на каждом шаге.",
+    "We are with you at every step."
+  ],
+  "816": [
+    "Маленький шаг. Большая цель.",
+    "Small steps. Big goals."
+  ],
+  "817": [
+    "ВПЕРЁД ВМЕСТЕ",
+    "FORWARD TOGETHER"
+  ],
+  "818": [
+    "Два ученика вместе гребут в одном направлении",
+    "Two students paddling together in the same direction"
+  ],
+  "819": [
+    "Понемногу, но непрерывно.",
+    "Little by little, consistently."
+  ],
+  "820": [
+    "Достигнем острова победы вместе!",
+    "Let us reach the island of success together!"
+  ],
+  "821": [
+    "Обучение с одной целью",
+    "Learning with a shared goal"
+  ],
+  "822": [
+    "Преврати мысли в эссе",
+    "Turn your ideas into an essay"
+  ],
+  "823": [
+    "250+ слов",
+    "250+ words"
+  ],
+  "824": [
+    "Аргументированный, структурированный ответ",
+    "A reasoned, structured response"
+  ],
+  "825": [
+    "4 критерия",
+    "4 criteria"
+  ],
+  "826": [
+    "Внимание к каждому навыку",
+    "Attention to every skill"
+  ],
+  "827": [
+    "НАЧНИ СВОЙ ПУТЬ ЗДЕСЬ",
+    "START YOUR JOURNEY HERE"
+  ],
+  "828": [
+    "Хорошее эссе — навык, которому можно научиться.",
+    "Writing a good essay is a skill you can learn."
+  ],
+  "829": [
+    "От понимания — к практике.",
+    "From understanding to practice."
+  ],
+  "830": [
+    "От практики — к результату.",
+    "From practice to progress."
+  ],
+  "831": [
+    "Учись понимать",
+    "Learn and understand"
+  ],
+  "832": [
+    "Структура эссе, развитие идей и аргументация — в понятных уроках.",
+    "Essay structure, idea development and argumentation, explained in clear lessons."
+  ],
+  "833": [
+    "Перейти к урокам",
+    "Go to lessons"
+  ],
+  "834": [
+    "Практикуй письмо",
+    "Practise writing"
+  ],
+  "835": [
+    "Выбери тему, собери мысли и напиши эссе в экзаменационном формате.",
+    "Choose a topic, organise your ideas and write an exam-style essay."
+  ],
+  "836": [
+    "Начать практику",
+    "Start practising"
+  ],
+  "837": [
+    "Получай обратную связь",
+    "Get feedback"
+  ],
+  "838": [
+    "Прочитай отзыв учителя, разберись в ошибках и улучши следующее эссе.",
+    "Read your teacher's feedback, understand mistakes and improve your next essay."
+  ],
+  "839": [
+    "Перейти к моим работам",
+    "Go to my work"
+  ],
+  "840": [
+    "НЕ ЖДИ ИДЕАЛЬНОГО ТЕКСТА",
+    "DO NOT WAIT FOR PERFECT WRITING"
+  ],
+  "841": [
+    "Начни с первого предложения.",
+    "Start with your first sentence."
+  ],
+  "842": [
+    "Самый надёжный путь к хорошему письму — пробовать писать.",
+    "The surest way to write well is to start writing."
+  ],
+  "843": [
+    "Написать первое эссе",
+    "Write my first essay"
+  ],
+  "844": [
+    "Большие возможности — в твоих словах.",
+    "Your words open new opportunities."
+  ],
+  "845": [
+    "На шаг ближе к знаниям.",
+    "One step closer to knowledge."
+  ],
+  "846": [
+    "Введите специальный код.",
+    "Enter the access code."
+  ],
+  "847": [
+    "Сначала введите email.",
+    "Enter your email first."
+  ],
+  "848": [
+    "Если email зарегистрирован, на него будет отправлено письмо для сброса пароля.",
+    "If this email is registered, a password reset email will be sent."
+  ],
+  "849": [
+    "Каждое большое достижение",
+    "Every great achievement"
+  ],
+  "850": [
+    "начинается с первого шага.",
+    "starts with a first step."
+  ],
+  "851": [
+    "Пространство для уроков, практики письма и развития с учителем.",
+    "A space for lessons, writing practice and progress with your teacher."
+  ],
+  "852": [
+    "Все эссе в одном месте",
+    "All your essays in one place"
+  ],
+  "853": [
+    "Личная обратная связь от учителя",
+    "Personal teacher feedback"
+  ],
+  "854": [
+    "Удобный вам темп",
+    "A pace that suits you"
+  ],
+  "855": [
+    "«Понемногу, но непрерывно.»",
+    "“Little by little, consistently.”"
+  ],
+  "856": [
+    "На главную",
+    "Back home"
+  ],
+  "857": [
+    "Завершить профиль",
+    "Complete your profile"
+  ],
+  "858": [
+    "Начнём вместе!",
+    "Let's begin together!"
+  ],
+  "859": [
+    "С возвращением!",
+    "Welcome back!"
+  ],
+  "860": [
+    "Выберите подходящую роль.",
+    "Choose your role."
+  ],
+  "861": [
+    "Войдите, чтобы продолжить обучение.",
+    "Sign in to continue learning."
+  ],
+  "862": [
+    "Я",
+    "I am a"
+  ],
+  "863": [
+    "Ученик",
+    "Student"
+  ],
+  "864": [
+    "Учитель",
+    "Teacher"
+  ],
+  "865": [
+    "Специальный код учителя",
+    "Teacher access code"
+  ],
+  "866": [
+    "Ваше имя",
+    "Your name"
+  ],
+  "867": [
+    "Пароль",
+    "Password"
+  ],
+  "868": [
+    "Минимум 8 символов",
+    "At least 8 characters"
+  ],
+  "869": [
+    "Ваш пароль",
+    "Your password"
+  ],
+  "870": [
+    "Забыли пароль?",
+    "Forgot your password?"
+  ],
+  "871": [
+    "Подождите…",
+    "Please wait…"
+  ],
+  "872": [
+    "Сохранить профиль",
+    "Save profile"
+  ],
+  "873": [
+    "Создать аккаунт",
+    "Create account"
+  ],
+  "874": [
+    "или",
+    "or"
+  ],
+  "875": [
+    "Через Google",
+    "With Google"
+  ],
+  "876": [
+    "зарегистрироваться",
+    "register"
+  ],
+  "877": [
+    "войти",
+    "sign in"
+  ],
+  "878": [
+    "Уже есть аккаунт?",
+    "Already have an account?"
+  ],
+  "879": [
+    "Ещё не зарегистрированы?",
+    "New here?"
+  ],
+  "880": [
+    "УЧИСЬ. ПОНИМАЙ. ПРИМЕНЯЙ.",
+    "LEARN. UNDERSTAND. APPLY."
+  ],
+  "881": [
+    "34 урока — системная подготовка",
+    "34 lessons — structured preparation"
+  ],
+  "882": [
+    "От основ до финального теста: теория, примеры, упражнения и письменная практика.",
+    "From foundations to the final test: theory, examples, activities and writing practice."
+  ],
+  "883": [
+    "+ Добавить урок",
+    "+ Add lesson"
+  ],
+  "884": [
+    "Разделы курса",
+    "Course sections"
+  ],
+  "885": [
+    "Курс ещё не установлен в базу. Добавьте материалы в кабинете учителя.",
+    "The course is not installed yet. Add materials from the teacher dashboard."
+  ],
+  "886": [
+    "минут",
+    "minutes"
+  ],
+  "887": [
+    "Изучить",
+    "Read"
+  ],
+  "888": [
+    "После каждого урока выполните короткое упражнение для закрепления.",
+    "Complete a short activity after each lesson to consolidate your learning."
+  ],
+  "889": [
+    "Все уроки",
+    "All lessons"
+  ],
+  "890": [
+    "УРОК",
+    "LESSON"
+  ],
+  "891": [
+    "МИНУТ",
+    "MINUTES"
+  ],
+  "892": [
+    "КОРОТКОЕ УПРАЖНЕНИЕ",
+    "SHORT EXERCISE"
+  ],
+  "893": [
+    "Перейти к практике",
+    "Go to practice"
+  ],
+  "894": [
+    "Предыдущий урок:",
+    "Previous lesson:"
+  ],
+  "895": [
+    "Следующий урок:",
+    "Next lesson:"
+  ],
+  "896": [
+    "УЧЕБНЫЕ МАТЕРИАЛЫ",
+    "LEARNING MATERIALS"
+  ],
+  "897": [
+    "СЕГОДНЯШНИЙ ШАГ — ОДНО ЭССЕ",
+    "TODAY'S STEP: ONE ESSAY"
+  ],
+  "898": [
+    "Практические задания",
+    "Practice assignments"
+  ],
+  "899": [
+    "Изложи мысли на бумаге",
+    "Put your thoughts into words"
+  ],
+  "900": [
+    "Просматривайте задания и добавляйте новые темы для учеников.",
+    "Browse assignments and add new topics for students."
+  ],
+  "901": [
+    "Выбери тему. Выдели 40 минут. Вырази мысли минимум в 250 словах.",
+    "Choose a topic. Set aside 40 minutes. Express your ideas in at least 250 words."
+  ],
+  "902": [
+    "Темы",
+    "Topics"
+  ],
+  "903": [
+    "40 мин · 250+ слов",
+    "40 min · 250+ words"
+  ],
+  "904": [
+    "Посмотреть задание",
+    "View assignment"
+  ],
+  "905": [
+    "Написать",
+    "Write"
+  ],
+  "906": [
+    "Темы предназначены для учебной практики. Оценка учителя не является официальным результатом IELTS.",
+    "Topics are for practice. Teacher scores are not official IELTS results."
+  ],
+  "907": [
+    "Войдите, чтобы открыть сохранённую работу.",
+    "Sign in to open saved work."
+  ],
+  "908": [
+    "Работа не найдена или недоступна.",
+    "Work not found or unavailable."
+  ],
+  "909": [
+    "Войдите, чтобы сохранить работу. Сначала скопируйте текст.",
+    "Sign in to save your work. Copy your text first."
+  ],
+  "910": [
+    "Отправка эссе доступна в аккаунте ученика.",
+    "Essay submission is available to student accounts."
+  ],
+  "911": [
+    "Сначала напишите эссе.",
+    "Write your essay first."
+  ],
+  "912": [
+    "Для отправки дополните эссе минимум до 250 слов.",
+    "Expand your essay to at least 250 words before submitting."
+  ],
+  "913": [
+    "Эссе отправлено учителю. Отзыв появится в личном кабинете.",
+    "Essay submitted. Feedback will appear in your dashboard."
+  ],
+  "914": [
+    "Черновик сохранён в Firebase. Продолжить можно из личного кабинета.",
+    "Draft saved to Firebase. Continue from your dashboard later."
+  ],
+  "915": [
+    "Задание для учеников",
+    "Student assignment"
+  ],
+  "916": [
+    "40 минут · минимум 250 слов",
+    "40 minutes · at least 250 words"
+  ],
+  "917": [
+    "Вернуться к темам",
+    "Back to topics"
+  ],
+  "918": [
+    "Остановить таймер",
+    "Pause timer"
+  ],
+  "919": [
+    "Запустить таймер",
+    "Start timer"
+  ],
+  "920": [
+    "Перезапустить таймер",
+    "Restart timer"
+  ],
+  "921": [
+    "Твоё эссе",
+    "Your essay"
+  ],
+  "922": [
+    "Сохранено",
+    "Saved"
+  ],
+  "923": [
+    "Несохранённые изменения",
+    "Unsaved changes"
+  ],
+  "924": [
+    "Готово к написанию",
+    "Ready to write"
+  ],
+  "925": [
+    "слов",
+    "words"
+  ],
+  "926": [
+    "/ минимум 250",
+    "/ at least 250"
+  ],
+  "927": [
+    "Достаточно слов",
+    "Word count reached"
+  ],
+  "928": [
+    "Раскрой свою мысль полностью",
+    "Develop your ideas fully"
+  ],
+  "929": [
+    "40 минут истекли. Это не означает, что текст сохранён: используйте кнопку сохранения или отправки ниже.",
+    "The 40 minutes are up. Your text is not automatically saved; use save or submit below."
+  ],
+  "930": [
+    "Можно попробовать писать. Для сохранения",
+    "You can try writing. To save,"
+  ],
+  "931": [
+    "войдите в аккаунт",
+    "sign in to your account"
+  ],
+  "932": [
+    ". Перед входом скопируйте текст.",
+    ". Copy your text before signing in."
+  ],
+  "933": [
+    "Сохранить черновик",
+    "Save draft"
+  ],
+  "934": [
+    "Перейти к моим работам",
+    "Go to my work"
+  ],
+  "935": [
+    "Обратная связь учителя",
+    "Teacher feedback"
+  ],
+  "936": [
+    "Отправленное эссе сразу доступно учителю. Он оценит его по четырём критериям и оставит рекомендации.",
+    "Your submitted essay is available to your teacher, who assesses four criteria and provides personal recommendations."
+  ],
+  "937": [
+    "Автоматически направляется учителю",
+    "Automatically sent to the teacher"
+  ],
+  "938": [
+    "План письма",
+    "Writing plan"
+  ],
+  "939": [
+    "5 минут",
+    "5 minutes"
+  ],
+  "940": [
+    "Анализ вопроса и план",
+    "Question analysis and planning"
+  ],
+  "941": [
+    "Написание эссе",
+    "Essay writing"
+  ],
+  "942": [
+    "Проверка и исправление",
+    "Checking and editing"
+  ],
+  "943": [
+    "Повторить структуру",
+    "Review structure"
+  ],
+  "944": [
+    "Твоё учебное пространство",
+    "Your learning space"
+  ],
+  "945": [
+    "Войдите, чтобы сохранять работы и получать обратную связь.",
+    "Sign in to save your work and receive feedback."
+  ],
+  "946": [
+    "Войти в аккаунт",
+    "Sign in to your account"
+  ],
+  "947": [
+    "Создать новый аккаунт",
+    "Create a new account"
+  ],
+  "948": [
+    "КАБИНЕТ УЧИТЕЛЯ",
+    "TEACHER DASHBOARD"
+  ],
+  "949": [
+    "ТВОЙ УЧЕБНЫЙ ПУТЬ",
+    "YOUR LEARNING JOURNEY"
+  ],
+  "950": [
+    "Привет,",
+    "Hello,"
+  ],
+  "951": [
+    "друг",
+    "friend"
+  ],
+  "952": [
+    "Каждый отзыв помогает ученику сделать следующий шаг.",
+    "Every piece of feedback guides a student's next step."
+  ],
+  "953": [
+    "Каждое эссе — шаг вперёд.",
+    "Every essay is a step forward."
+  ],
+  "954": [
+    "Все ученики — в одном месте",
+    "All your students in one place"
+  ],
+  "955": [
+    "Отправленные эссе доступны всем аккаунтам учителя. Откройте работу, поставьте оценки и оставьте отзыв.",
+    "Submitted essays are shared across teacher accounts. Open a work, score it and leave feedback."
+  ],
+  "956": [
+    "Все работы",
+    "All work"
+  ],
+  "957": [
+    "Получена обратная связь",
+    "Feedback received"
+  ],
+  "958": [
+    "Средняя учебная оценка",
+    "Average practice score"
+  ],
+  "959": [
+    "Написать новое эссе",
+    "Write a new essay"
+  ],
+  "960": [
+    "Работы учеников",
+    "Student work"
+  ],
+  "961": [
+    "На проверке",
+    "Awaiting review"
+  ],
+  "962": [
+    "Новое",
+    "New"
+  ],
+  "963": [
+    "Пока нет работ",
+    "No work yet"
+  ],
+  "964": [
+    "Ждём твоё первое эссе",
+    "Your first essay starts here"
+  ],
+  "965": [
+    "Работа появится здесь после отправки учеником.",
+    "Student work will appear here after submission."
+  ],
+  "966": [
+    "Выберите тему и начните с первой мысли.",
+    "Choose a topic and start with your first idea."
+  ],
+  "967": [
+    "В этой категории пока нет работ.",
+    "No work in this category yet."
+  ],
+  "968": [
+    "Выбрать тему",
+    "Choose a topic"
+  ],
+  "969": [
+    "Напишите отзыв ученику.",
+    "Write feedback for the student."
+  ],
+  "970": [
+    "Поставьте оценки 0–9 с шагом 0.5 по каждому критерию.",
+    "Score each criterion from 0 to 9 in 0.5 increments."
+  ],
+  "971": [
+    "Вернуться к работам",
+    "Back to work"
+  ],
+  "972": [
+    "МОЁ ЭССЕ",
+    "MY ESSAY"
+  ],
+  "973": [
+    "ЗАДАНИЕ",
+    "ASSIGNMENT"
+  ],
+  "974": [
+    "Оцените каждый критерий и оставьте конкретную рекомендацию.",
+    "Score each criterion and provide specific advice."
+  ],
+  "975": [
+    "Отзыв и рекомендации",
+    "Feedback and recommendations"
+  ],
+  "976": [
+    "Сильные стороны, что улучшить и следующий шаг…",
+    "Strengths, areas to improve and the next step…"
+  ],
+  "977": [
+    "Отправка…",
+    "Sending…"
+  ],
+  "978": [
+    "Учебная оценка",
+    "Practice score"
+  ],
+  "979": [
+    "Отзыв учителя",
+    "Teacher feedback"
+  ],
+  "980": [
+    "Попробовать переписать",
+    "Try revising"
+  ],
+  "981": [
+    "Работа на проверке",
+    "Your work is awaiting review"
+  ],
+  "982": [
+    "После проверки учителем здесь появятся отзыв и рекомендации.",
+    "Feedback and recommendations will appear here after review."
+  ],
+  "983": [
+    "Это учебная оценка во время подготовки, а не официальный результат IELTS.",
+    "This is a practice assessment, not an official IELTS result."
+  ],
+  "984": [
+    "Страница не найдена",
+    "Page not found"
+  ],
+  "985": [
+    "Продолжите обучение с главной страницы.",
+    "Continue your learning journey from the home page."
+  ],
+  "605": [
+    "IELTS Writing Task 2: формат и оценивание",
+    "IELTS Writing Task 2: format and assessment"
+  ],
+  "612": [
+    "В Task 2 нужно написать аргументированное эссе по заданной проблеме.",
+    "In Task 2, write a reasoned essay about the given issue."
+  ],
+  "613": [
+    "Общие навыки письма: план и структура",
+    "General writing skills: planning and structure"
+  ],
+  "616": [
+    "Сначала выделите тему, ограничения и требуемое действие.",
+    "First identify the topic, scope and required action."
+  ],
+  "617": [
+    "Discussion: различаем две позиции",
+    "Discussion: distinguishing two views"
+  ],
+  "620": [
+    "Discussion требует объяснить две точки зрения.",
+    "A discussion task asks you to explain two views."
+  ],
+  "621": [
+    "Discussion: сбор идей и планирование",
+    "Discussion: brainstorming and planning"
+  ],
+  "624": [
+    "Хороший план не просто перечисляет стороны: он объясняет, как возникает польза каждого подхода.",
+    "A good plan goes beyond listing both sides: it explains how each approach produces benefits."
+  ],
+  "625": [
+    "Discussion: вступление и позиция",
+    "Discussion: introduction and position"
+  ],
+  "628": [
+    "Вступление переформулирует тему и показывает направление ответа.",
+    "The introduction paraphrases the topic and signals your answer."
+  ],
+  "629": [
+    "Discussion: развитие первой позиции",
+    "Discussion: developing the first view"
+  ],
+  "632": [
+    "Первое предложение абзаца представляет рассматриваемую позицию.",
+    "A topic sentence introduces the view being discussed."
+  ],
+  "633": [
+    "Discussion: вторая позиция и сравнение",
+    "Discussion: the second view and comparison"
+  ],
+  "636": [
+    "Второй абзац не должен повторять первый.",
+    "The second paragraph should not repeat the first."
+  ],
+  "637": [
+    "Discussion: полное эссе",
+    "Discussion: writing a complete essay"
+  ],
+  "640": [
+    "При объединении частей сохраняйте единую позицию.",
+    "Maintain a consistent position when combining sections."
+  ],
+  "641": [
+    "Discussion: исправление и переработка",
+    "Discussion: correcting and revising"
+  ],
+  "644": [
+    "Переработка не ограничивается орфографией.",
+    "Revision is more than spelling."
+  ],
+  "645": [
+    "Opinion: степень согласия",
+    "Opinion: deciding how far you agree"
+  ],
+  "648": [
+    "В agree/disagree объясните степень согласия.",
+    "In agree/disagree tasks, explain how far you agree."
+  ],
+  "649": [
+    "Opinion: формулировка тезиса",
+    "Opinion: writing a thesis"
+  ],
+  "652": [
+    "Тезис — главный ответ эссе, а не просто название темы.",
+    "A thesis is your main answer, not just a topic statement."
+  ],
+  "653": [
+    "Opinion: развитие аргумента",
+    "Opinion: developing an argument"
+  ],
+  "656": [
+    "Убедительный аргумент объясняет причинно-следственную связь.",
+    "A convincing argument explains cause and effect."
+  ],
+  "657": [
+    "Opinion: ответ на контраргумент",
+    "Opinion: responding to a counterargument"
+  ],
+  "660": [
+    "Признание контраргумента не означает отказ от позиции.",
+    "Acknowledging a counterargument does not mean abandoning your position."
+  ],
+  "661": [
+    "Opinion: частичное согласие",
+    "Opinion: partial agreement"
+  ],
+  "664": [
+    "Частичное согласие — не случайное переключение сторон.",
+    "Partial agreement is not random switching between sides."
+  ],
+  "665": [
+    "Opinion: полный ответ",
+    "Opinion: building a complete response"
+  ],
+  "668": [
+    "В opinion эссе сохраняйте позицию от начала до конца.",
+    "Maintain your position throughout an opinion essay."
+  ],
+  "669": [
+    "Opinion: точность и переработка",
+    "Opinion: precision and revision"
+  ],
+  "672": [
+    "Проверяйте абсолютные утверждения: always, everyone, never часто чрезмерно обобщают.",
+    "Look for absolute claims: always, everyone and never often overgeneralise."
+  ],
+  "673": [
+    "Advantages / Disadvantages: типы вопросов",
+    "Advantages / Disadvantages: question types"
+  ],
+  "676": [
+    "Описание плюсов и минусов отличается от оценки того, что перевешивает.",
+    "Describing advantages and disadvantages differs from judging which outweighs the other."
+  ],
+  "677": [
+    "Advantages: конкретное объяснение пользы",
+    "Advantages: explaining benefits precisely"
+  ],
+  "680": [
+    "Преимущество должно показывать возможность для конкретного человека или группы.",
+    "An advantage should show what opportunity a person or group gains."
+  ],
+  "681": [
+    "Disadvantages: издержки и последствия",
+    "Disadvantages: costs and consequences"
+  ],
+  "684": [
+    "Не просто назовите недостаток: объясните его происхождение и важность.",
+    "Do not just name a drawback: explain how it arises and why it matters."
+  ],
+  "685": [
+    "Outweigh: сравнение двух сторон",
+    "Outweigh: weighing both sides"
+  ],
+  "688": [
+    "Нельзя решать только по числу аргументов.",
+    "Do not judge by counting arguments alone."
+  ],
+  "689": [
+    "Advantages / Disadvantages: полное эссе",
+    "Advantages / Disadvantages: complete essay"
+  ],
+  "692": [
+    "В полном ответе плюсы и минусы развиваются отдельно.",
+    "Develop advantages and disadvantages separately."
+  ],
+  "693": [
+    "Advantages / Disadvantages: переоценка",
+    "Advantages / Disadvantages: reassessment"
+  ],
+  "696": [
+    "При пересмотре проверьте, оцениваются ли плюсы и минусы по одним критериям.",
+    "Check that benefits and drawbacks are judged on comparable criteria."
+  ],
+  "697": [
+    "Problem / Solution: проблема, причина, решение",
+    "Problem / Solution: problem, cause, solution"
+  ],
+  "700": [
+    "Проблема — нежелательная ситуация; причина — фактор, который её вызывает; решение — действие, влияющее на неё.",
+    "A problem is an undesirable situation; a cause is a factor producing it; a solution is an action addressing it."
+  ],
+  "701": [
+    "Problem / Solution: анализ причин",
+    "Problem / Solution: analysing causes"
+  ],
+  "704": [
+    "Анализ причины должен идти глубже «слишком много людей».",
+    "Go beyond saying “there are many people”."
+  ],
+  "705": [
+    "Problem / Solution: выполнимое решение",
+    "Problem / Solution: a practical solution"
+  ],
+  "708": [
+    "В хорошем решении ясно, кто действует, что делает и как это поможет.",
+    "A good solution identifies who acts, what they do and how it helps."
+  ],
+  "709": [
+    "Problem / Solution: связный план",
+    "Problem / Solution: a connected plan"
+  ],
+  "712": [
+    "Причины и решения не должны быть разрозненными списками.",
+    "Causes and solutions should not be disconnected lists."
+  ],
+  "713": [
+    "Problem / Solution: полное эссе",
+    "Problem / Solution: complete essay"
+  ],
+  "716": [
+    "Сохраняйте ясную связь причин и решений.",
+    "Keep the cause–solution connection clear."
+  ],
+  "717": [
+    "Problem / Solution: исправление логики",
+    "Problem / Solution: improving logic"
+  ],
+  "720": [
+    "При переработке сначала проверьте связь причины и решения.",
+    "First check the cause–solution connection when revising."
+  ],
+  "721": [
+    "Two-Part Question: распознаём две задачи",
+    "Two-Part Question: identifying two tasks"
+  ],
+  "724": [
+    "Задание содержит два отдельных вопроса по одной теме.",
+    "The task asks two separate questions on one topic."
+  ],
+  "725": [
+    "Two-Part Question: сбалансированный план",
+    "Two-Part Question: balanced planning"
+  ],
+  "728": [
+    "Одинаковый объём не обязателен, но оба ответа нужно развить.",
+    "Equal word counts are not required, but both answers need development."
+  ],
+  "729": [
+    "Two-Part Question: полное эссе",
+    "Two-Part Question: complete essay"
+  ],
+  "732": [
+    "Напишите единое эссе, а не два несвязанных коротких текста.",
+    "Write one coherent essay, not two unrelated mini-texts."
+  ],
+  "733": [
+    "Two-Part Question: улучшение ответа",
+    "Two-Part Question: improving the response"
+  ],
+  "736": [
+    "При проверке соотнесите каждое предложение с первым или вторым вопросом.",
+    "During review, connect each sentence to the first or second question."
+  ],
+  "737": [
+    "Смешанная практика: определение типа и самопроверка",
+    "Mixed practice: identify the type and self-check"
+  ],
+  "741": [
+    "Сначала читайте точную инструкцию.",
+    "Read the exact instruction first."
+  ],
+  "742": [
+    "Финальный тест: IELTS Writing Task 2",
+    "Final test: IELTS Writing Task 2"
+  ],
+  "745": [
+    "Это учебный тест курса.",
+    "This is the course's practice test."
+  ],
+  "986": [
+    "-е место:",
+    " — position:"
+  ],
+  "987": [
+    "материалов добавлено. Существующие материалы сохранены.",
+    "materials added. Existing materials were preserved."
+  ],
+  "988": [
+    "— личный кабинет",
+    "— dashboard"
+  ],
+  "989": [
+    "-е предложение вверх",
+    " — move sentence up"
+  ],
+  "990": [
+    "-е предложение вниз",
+    " — move sentence down"
+  ],
+  "991": [
+    "Написано минимум 250 слов (",
+    "At least 250 words written ("
+  ],
+  "992": [
+    " — удалить раздел",
+    " — remove section"
+  ],
+  "993": [
+    "Длиннее 35 слов:",
+    "Over 35 words:"
+  ],
+  "994": [
+    "предложений",
+    "sentences"
+  ]
+}

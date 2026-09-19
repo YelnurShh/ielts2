@@ -76,3 +76,19 @@ firebase emulators:exec --only auth,firestore --project demo-ielts-mastery --con
 Эмулятор үшін ғана `VITE_FIREBASE_EMULATORS=true` қолданылады. Production-да бұл айнымалыны орнатпаңыз. Тест деректері `demo-ielts-mastery` эмуляторында, production Firebase-ке жазылмайды.
 
 Оқу материалдары құжаттағы курс құрылымы бойынша жаңадан дайындалған. Формат дереккөздері: https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing және https://ielts.org/take-a-test/preparation-resources/writing-test-resources. Мұғалімнің оқу бағасы ресми IELTS нәтижесі емес.
+
+## Localization
+
+The header offers KZ / RU / EN. The internal Kazakh locale is `kk` (HTML/Intl standard); the UI label is KZ. The selected language is stored in `writing-mastery-language` in localStorage. Changing language keeps mounted forms and their current input. Dates use the selected locale.
+
+`src/locales/source.json` is the append-only source phrase catalog. `src/locales/translations.json` maps its stable numeric indices to `[Russian, English]` translations. It covers the bundled 34 lessons, activity instructions, interfaces and errors. Append new phrases instead of reordering the source catalog. `src/i18n.ts` implements translation and locale state. `scripts/localize-jsx.cjs` applies translations to presentation text at build time; stored IDs, form values, answer comparisons and Firestore writes keep their canonical values. Explicit option values preserve select behavior.
+
+English IELTS questions and language examples remain in English. Personal names, essays, notes, plans, and teacher feedback remain in the author's language. Use `translate="no"` around additional personal text renderers. New teacher-authored material needs authored translations added to the catalog to be shown in all languages; it is not automatically sent to a translation service. No translation API, keys or external runtime requests are required.
+
+Localization browser regression checks (local emulator only):
+
+```sh
+firebase emulators:exec --only auth,firestore --project demo-ielts-mastery --config firebase.test.json 'node scripts/test-learning.mjs && node scripts/test-localization.mjs'
+```
+
+These cover all 34 lessons in RU/EN, registration and teacher pages, language persistence, mobile overflow, preserving form values and names, and saving correct canonical quiz answers while using translated labels.

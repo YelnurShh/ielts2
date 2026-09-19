@@ -5,6 +5,7 @@ import { collection, doc, getDocs, query, where, writeBatch, type DocumentRefere
 import { Trash2 } from 'lucide-react';
 import { useAuth } from './auth';
 import { db, errorMessage } from './firebase';
+import { useLocale, translate } from './i18n';
 
 const ownedCollections=['essays','activityAttempts','activityDrafts','lessonProgress','reviewHistory','analyses'];
 
@@ -21,13 +22,15 @@ async function deleteOwnedData(uid:string){
 
 export default function AccountDeletion(){
   const {user}=useAuth();
+  const {locale}=useLocale();
+  const confirmationWord={kk:'ӨШІРУ',ru:'УДАЛИТЬ',en:'DELETE'}[locale];
   const navigate=useNavigate();
   const [open,setOpen]=useState(false),[password,setPassword]=useState(''),[confirmation,setConfirmation]=useState(''),[busy,setBusy]=useState(false),[message,setMessage]=useState('');
   const google=user?.providerData.some(provider=>provider.providerId==='google.com');
 
   async function remove(e:FormEvent){
     e.preventDefault();
-    if(!user||confirmation!=='ӨШІРУ')return;
+    if(!user||confirmation!==confirmationWord)return;
     setBusy(true);setMessage('');
     try{
       if(google)await reauthenticateWithPopup(user,new GoogleAuthProvider());
@@ -47,10 +50,10 @@ export default function AccountDeletion(){
     {!open?<button className="danger-button" onClick={()=>setOpen(true)}><Trash2 size={17}/> Аккаунтты өшіру</button>:<form onSubmit={remove}>
       <strong>Бұл әрекетті қайтару мүмкін емес.</strong>
       {!google&&<label className="field">Ағымдағы құпиясөз<input type="password" required autoComplete="current-password" value={password} onChange={e=>setPassword(e.target.value)}/></label>}
-      <label className="field">Растау үшін ӨШІРУ деп жазыңыз<input required value={confirmation} onChange={e=>setConfirmation(e.target.value)} autoComplete="off"/></label>
+      <label className="field">{translate('Растау үшін ӨШІРУ деп жазыңыз').replace('ӨШІРУ',confirmationWord)}<input required value={confirmation} onChange={e=>setConfirmation(e.target.value)} autoComplete="off"/></label>
       {google&&<p className="muted-text">Келесі қадамда Google аккаунтыңызды қайта растайсыз.</p>}
       {message&&<p className="notice error" role="alert">{message}</p>}
-      <div className="learning-actions"><button type="button" className="button secondary" disabled={busy} onClick={()=>{setOpen(false);setPassword('');setConfirmation('');setMessage('')}}>Бас тарту</button><button className="danger-button" disabled={busy||confirmation!=='ӨШІРУ'}>{busy?'Өшірілуде…':'Барлығын біржола өшіру'}</button></div>
+      <div className="learning-actions"><button type="button" className="button secondary" disabled={busy} onClick={()=>{setOpen(false);setPassword('');setConfirmation('');setMessage('')}}>Бас тарту</button><button className="danger-button" disabled={busy||confirmation!==confirmationWord}>{busy?'Өшірілуде…':'Барлығын біржола өшіру'}</button></div>
     </form>}
   </section>
 }
